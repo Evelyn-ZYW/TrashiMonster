@@ -3,4 +3,5 @@ body {
   margin: 0;
   width: 414px;
   height: 736px;
+  border: 1px solid black;
 }

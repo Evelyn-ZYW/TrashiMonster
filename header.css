@@ -1,9 +1,9 @@
 header {
-  border: 1px solid black;
+  border-bottom: 1px solid black;
   display: inline-flex;
   width: 100%;
   font-family: 'Walter Turncoat', cursive;
-  font-size: 19pt;
+  font-size: 23pt;
 }
 header img {
   max-width: 75px;
@@ -13,13 +13,13 @@ header p {
   color:#0090ff;
   text-align: center;
   justify-content: center;
-  padding-top: 10px;
+  padding-top: 5px;
   padding-left: 2px;
 }
 header span {
   /* width: 80px; */
   text-align: center;
-  padding-top: 35px;
-  padding-left: 20px;
+  padding-top: 40px;
+  padding-left: 18px;
 }
 .material-icons.md-36 { font-size: 36px; }
