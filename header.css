@@ -3,7 +3,7 @@ header {
   display: inline-flex;
   width: 100%;
   font-family: 'Walter Turncoat', cursive;
-  font-size: 18pt;
+  font-size: 19pt;
 }
 header img {
   max-width: 75px;
@@ -13,17 +13,13 @@ header p {
   color:#0090ff;
   text-align: center;
   justify-content: center;
-  padding-top: 15px;
+  padding-top: 10px;
+  padding-left: 2px;
 }
 header span {
-  background-size: contain;
-  /* margin:15px; */
-  width: 85px;
+  /* width: 80px; */
   text-align: center;
-  padding-top: 37px;
+  padding-top: 35px;
+  padding-left: 20px;
 }
-/* Rules for sizing the icon. */
-.material-icons.md-18 { font-size: 18px; }
-.material-icons.md-24 { font-size: 24px; }
 .material-icons.md-36 { font-size: 36px; }
-.material-icons.md-48 { font-size: 48px; }
