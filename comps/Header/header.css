@@ -1,0 +1,21 @@
+div {
+  display: inline-flex;
+  width: 414px;
+  font-family: 'Walter Turncoat', cursive;
+  font-size: 23pt;
+}
+#logo {
+  max-width: 75px;
+  margin: 15px;
+}
+div p {
+  color:#0090ff;
+  text-align: center;
+  justify-content: center;
+  padding-top: 5px;
+  padding-left: 2px;
+}
+#menu {
+  max-width: 30px;
+  margin: 15px;
+}
