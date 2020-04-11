@@ -1,0 +1,10 @@
+.button_rect {
+  /* display: inline-flex; */
+  width: 90px;
+  color: white;
+  font-family: 'Boogaloo', cursive;
+  font-size: 17pt;
+  border-radius: 10pt;
+  align-items: center;
+  padding: 15px;
+}

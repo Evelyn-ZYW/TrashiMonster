@@ -1,0 +1,8 @@
+.button_squa {
+  display: inline-flex;
+  width: 100px;
+  height: 100px;
+  color: white;
+  border-radius:10pt;
+  align-items: center;
+}

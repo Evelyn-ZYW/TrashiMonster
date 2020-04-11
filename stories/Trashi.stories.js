@@ -1,6 +1,8 @@
 import React from 'react';
 
-import Button from '../comps/Button';
+import ArrowButton from '../comps/Button/ArrowButton';
+import RectButton from '../comps/Button/RectButton';
+import SquaButton from '../comps/Button/SquaButton';
 import Header from '../comps/Header';
 import Menu from '../comps/Menu';
 
@@ -19,7 +21,9 @@ export default {
 
 export const MyHeader =() => <Header />;
 
-export const MyButton =() => <Button />;
+export const MyArrowButton =() => <ArrowButton />;
+export const MyRectButton =() => <RectButton />;
+export const MySquaButton =() => <SquaButton />;
 
 export const MyMenu =() => <Menu />;
 
