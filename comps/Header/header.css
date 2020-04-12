@@ -1,4 +1,6 @@
-div {
+#the_header {
+  position: absolute;
+  top: 0px;
   display: inline-flex;
   width: 414px;
   font-family: 'Walter Turncoat', cursive;
@@ -8,7 +10,7 @@ div {
   max-width: 75px;
   margin: 15px;
 }
-div p {
+#the_header p {
   color:#0090ff;
   text-align: center;
   justify-content: center;

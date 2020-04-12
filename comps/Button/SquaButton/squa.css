@@ -1,8 +1,14 @@
 .button_squa {
   display: inline-flex;
-  width: 100px;
-  height: 100px;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
   color: white;
   border-radius:10pt;
   align-items: center;
+  text-align: center;
+}
+.button_img {
+  max-width: 100px;
+  margin: 30px;
 }

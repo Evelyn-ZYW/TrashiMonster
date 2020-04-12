@@ -1,20 +1,24 @@
 import React from 'react';
 import './squa.css';
 
-const MySquaButton = () =>
-<div
+const SquaImg = require('../../../imgs/organic.png');
+
+const SquaButton = ({ text, img, color, onClick }) =>
+  <div
     className="button_squa"
-    style={{backgroundColor:color3, boxShadow: "1px 1px 5px" + color3 }}
+    style={{ backgroundColor: color, boxShadow: "1px 1px 5px" + color }}
     onClick={onClick}
   >
-    <div>
+    <img className="button_img" src={img} />
+    <span>
       {text}
-    </div>
+    </span>
   </div>;
 
-MyButton3.defaultProps = {
-  text: "I'm a square button",
-  color: "#3b27ba"
+SquaButton.defaultProps = {
+  img: SquaImg,
+  text: "Square",
+  color: "#13ca91"
 }
 
-export default MySquaButton;
+export default SquaButton;

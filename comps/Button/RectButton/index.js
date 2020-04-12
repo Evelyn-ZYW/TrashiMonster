@@ -1,20 +1,18 @@
 import React from 'react';
 import './rect.css';
 
-const MyRectButton = ({text, color, onClick}) =>
+const RectButton = ({ text, color, onClick }) =>
   <div
     className="button_rect"
-    style={{ backgroundColor: color2, boxShadow: "1px 1px 5px" + color2 }}
+    style={{ backgroundColor: color, boxShadow: "1px 1px 5px" + color }}
     onClick={onClick}
   >
-    <div>
       {text}
-    </div>
   </div>;
 
-MyRectButton.defaultProps = {
-  text: "I'm a rectangle button",
+RectButton.defaultProps = {
+  text: "rectangle",
   color: "#3b27ba"
 }
 
-export default MyRectButton;
+export default RectButton;

@@ -1,0 +1,27 @@
+.body_page {
+  display: flex;
+  flex-direction: column;
+  background-color:#ff9472;
+  width: 414px;
+  height:736px;
+  align-items: center;
+  justify-content: center;
+}
+
+#green_monster{
+  width: 150px;
+  margin-bottom:-70px;
+}
+#globe {
+  width: 300px;
+  animation: rotation 20s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(359deg);
+  }
+}

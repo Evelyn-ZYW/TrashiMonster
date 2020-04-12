@@ -7,6 +7,7 @@ const defaultLogo = require('../../imgs/logo.png');
 const defaultHam = require('../../imgs/ham.svg');
 
 const Header = ({img, ham, backgroundColor}) => <div
+id="the_header"
 style={{backgroundColor:backgroundColor}}>
   <img id="logo" src={img} />
   <p>Trashi Monster</p>
