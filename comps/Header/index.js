@@ -10,7 +10,7 @@ const Header = ({img, ham, backgroundColor}) => <div
 id="the_header"
 style={{backgroundColor:backgroundColor}}>
   <img id="logo" src={img} />
-  <p>Trashi Monster</p>
+  <div>Trashi Monster</div>
   <img id="menu" src={ham} />
 </div>;
 

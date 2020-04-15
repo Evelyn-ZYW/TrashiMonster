@@ -25,3 +25,7 @@
       transform: rotate(359deg);
   }
 }
+
+p {
+  font-family: 'PT Sans Narrow', sans-serif;
+}

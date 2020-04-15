@@ -3,20 +3,22 @@
   top: 0px;
   display: inline-flex;
   width: 414px;
-  font-family: 'Walter Turncoat', cursive;
-  font-size: 23pt;
 }
+
 #logo {
   max-width: 75px;
   margin: 15px;
 }
-#the_header p {
-  color:#0090ff;
+
+#the_header div {
+  color: #0090ff;
   text-align: center;
   justify-content: center;
-  padding-top: 5px;
-  padding-left: 2px;
+  padding-top: 30px;
+  font-family: 'Walter Turncoat', cursive;
+  font-size: 23pt;
 }
+
 #menu {
   max-width: 25px;
   margin-left: 20px;
