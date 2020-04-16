@@ -1,0 +1,30 @@
+#button_long {
+  display: inline-flex;
+  flex-direction: row;
+  color: white;
+  border-radius:10pt;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 8px;
+  font-family: 'Boogaloo', cursive;
+  width:290px;
+  height:80px;
+}
+#long_button_img {
+  max-width: 70px;
+}
+#long_button_texts {
+  display: flex;
+  margin: 5px;
+}
+
+#long_button_text1 {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#long_button_text2 {
+  margin-top: -10px;
+  font-size: 16px;
+}

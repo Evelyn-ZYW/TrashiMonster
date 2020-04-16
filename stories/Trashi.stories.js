@@ -3,6 +3,7 @@ import React from 'react';
 import ArrowButton from '../comps/Button/ArrowButton';
 import RectButton from '../comps/Button/RectButton';
 import SquaButton from '../comps/Button/SquaButton';
+import LongButton from '../comps/Button/LongButton';
 import Header from '../comps/Header';
 import Menu from '../comps/Menu';
 
@@ -10,9 +11,10 @@ import Home from '../pages/Home';
 import Location from '../pages/Location';
 import Duration from '../pages/Duration';
 import Category from '../pages/Category';
-
 import Result from '../pages/Result';
+import Tips from '../pages/Tips';
 import Summary from '../pages/Summary';
+
 import Tutorial from '../pages/Tutorial';
 
 export default {
@@ -24,6 +26,12 @@ export const MyHeader = () => <Header />;
 
 export const MyArrowButton = () => <div>
   <ArrowButton
+  className="left"
+  src1="{src1}"
+  />
+    <ArrowButton
+  className="right"
+  src1="{src2}"
   />
 </div>;
 
@@ -43,7 +51,7 @@ export const MySquaButton = () => <div>
   />
 </div>;
 
-
+export const MyLongButton = () => <LongButton />;
 export const MyMenu = () => <Menu />;
 
 export const MyHome = () => <Home />;
@@ -52,4 +60,7 @@ export const MyLocation = () => <Location />;
 
 export const MyDuration = () => <Duration />;
 export const MyCategory = () => <Category />;
+export const MyResult = () => <Result />;
+export const MyTips = () => <Tips />;
+export const MySummary = () => <Summary />;
 

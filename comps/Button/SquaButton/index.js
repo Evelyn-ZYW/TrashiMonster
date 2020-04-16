@@ -6,6 +6,7 @@ const SquaImg = require('../../../imgs/organic.png');
 const SquaButton = ({ className, text, img, color, onClick, width, height, fontSize }) =>
   <div
     className={"default_class " + className}
+    id="square_button"
     style={{ backgroundColor: color, boxShadow: "1px 1px 5px" + color, width: width, height: height, fontSize: fontSize }}
     onClick={onClick}
   >
