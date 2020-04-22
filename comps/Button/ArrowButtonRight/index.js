@@ -1,16 +1,15 @@
 import React from 'react';
-import './arrow.css';
+import './arrowright.css';
 
-const arrowRight = require('../../../imgs/arrow_right.svg');
+const ArrowRight = require("../../../imgs/arrow_right.svg")
 
-const ArrowButtonRight = ({onClick, src }) => <div
-  id="button_arrow"
-  onClick={onClick}>
+const ArrowButtonRight = ({ src }) => <div
+  className="arrow_button" id="arrow_right">
   <img src={src} />
 </div>;
 
-ArrowButtonLeft.defaultProps = {
-  src: arrowRight
+ArrowButtonRight.defaultProps = {
+  src: ArrowRight
 }
 
 export default ArrowButtonRight;

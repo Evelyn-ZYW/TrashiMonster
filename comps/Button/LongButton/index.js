@@ -9,7 +9,7 @@ const Waste = require('../../../imgs/waste.png');
 
 const LongButton = ({ onClick, color, text1, text2, src }) => <div
   id="button_long"
-  style={{ backgroundColor: color, boxShadow: "1px 1px 5px" + color}}
+  style={{ backgroundColor: color, boxShadow: "1px 1px 1px" + color}}
   onClick={onClick}
 >
   <img id="long_button_img" src={src} />

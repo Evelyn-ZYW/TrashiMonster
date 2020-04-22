@@ -3,6 +3,7 @@ import './result.css';
 
 import Header from '../../comps/Header';
 import ArrowButtonLeft from '../../comps/Button/ArrowButtonLeft';
+import ArrowButtonRight from '../../comps/Button/ArrowButtonRight';
 
 const Mountain = require('../../imgs/organic_week.png')
 const ShockedMonster = require('../../imgs/monster.png')
@@ -18,7 +19,10 @@ const Result = ({ text, src1, src2 }) => <div className="body_page">
     </div>
 
   </div>
-  <ArrowButtonLeft />
+  <div className="the_footer">
+    <ArrowButtonLeft />
+    <ArrowButtonRight />
+  </div>
 </div>;
 
 Result.defaultProps = {

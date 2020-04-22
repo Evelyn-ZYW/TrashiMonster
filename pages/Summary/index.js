@@ -2,6 +2,7 @@ import React from 'react';
 import './summary.css';
 
 import Header from '../../comps/Header';
+import Footer from '../../comps/Footer';
 import ArrowButtonLeft from '../../comps/Button/ArrowButtonLeft';
 import RectButton from '../../comps/Button/RectButton';
 import LongButton from '../../comps/Button/LongButton';
@@ -12,7 +13,7 @@ const MixedPaper = require('../../imgs/mixedpaper.png');
 const GlassCan = require('../../imgs/glass_can.png');
 const Waste = require('../../imgs/waste.png');
 
-const Summary = ({ text, src1, src2, src3, src4, src5, }) => <div className="body_page">
+const Summary = ({ src1, src2, src3, src4, src5, }) => <div className="body_page">
   <Header />
   <div id="summary_body_cont1">
     <LongButton
@@ -45,10 +46,16 @@ const Summary = ({ text, src1, src2, src3, src4, src5, }) => <div className="bod
       text2="Repair rather than discard & use up the items you already have"
     />
   </div>
-  <div id="summary_body_cont2">
+  <div className="the_footer">
     <ArrowButtonLeft />
-    <RectButton />
+    <RectButton
+    backgroundColor="#FFFFFF"
+    color="#000000"
+    text="Start Again!"
+    height="20px"
+    right = "-120px" />
   </div>
+
 </div>;
 
 Summary.defaultProps = {

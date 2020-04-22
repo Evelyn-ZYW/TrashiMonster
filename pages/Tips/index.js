@@ -2,7 +2,8 @@ import React from 'react';
 import './tips.css';
 
 import Header from '../../comps/Header';
-import ArrowButton from '../../comps/Button/ArrowButtonLeft';
+import ArrowButtonLeft from '../../comps/Button/ArrowButtonLeft';
+import ArrowButtonRight from '../../comps/Button/ArrowButtonRight';
 import SquaButton from '../../comps/Button/SquaButton';
 
 const Organic = require('../../imgs/organic.png');
@@ -19,7 +20,10 @@ const Tips = ({ color, text1, text2, text3, text4, text5, }) => <div className="
     <p>{text4}</p>
     <p>{text5}</p>
   </div>
-  <ArrowButton />
+  <div className="the_footer">
+    <ArrowButtonLeft />
+    <ArrowButtonRight />
+  </div>
 </div>;
 
 Tips.defaultProps = {

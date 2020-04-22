@@ -1,14 +1,8 @@
 import React from 'react';
 import './footer.css';
 
-const Footer = ({backgroundColor}) => <div
-id="the_footer"
-style={{backgroundColor: backgroundColor}}>
-
+const Footer = () => <div
+className="the_footer">
 </div>
 
-Footer.defaultProps = {
-  backgroundColor: "#ff9472"
-
-}
 export default Footer;

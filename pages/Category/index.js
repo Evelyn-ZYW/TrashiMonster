@@ -5,6 +5,13 @@ import Header from '../../comps/Header';
 import ArrowButtonLeft from '../../comps/Button/ArrowButtonLeft';
 import SquaButton from '../../comps/Button/SquaButton';
 
+const Organic = require('../../imgs/organic.png');
+const Plastic = require('../../imgs/plastic.png');
+const MixedPaper = require('../../imgs/mixedpaper.png');
+const GlassCan = require('../../imgs/glass_can.png');
+const Waste = require('../../imgs/waste.png');
+
+
 const Category = ({ }) => <div className="body_page">
   <Header />
   <div id="body_cont2">
@@ -14,6 +21,7 @@ const Category = ({ }) => <div className="body_page">
     <p>Choose a category to have a closer look at!</p>
     <div>
       <SquaButton
+        src={Organic}
         color="#13ca91"
         text="Organic"
         width="130px"
@@ -21,6 +29,7 @@ const Category = ({ }) => <div className="body_page">
         fontSize="25px"
       />
       <SquaButton
+        src={Plastic}
         color="#0090ff"
         text="Plastic"
         width="130px"
@@ -28,6 +37,7 @@ const Category = ({ }) => <div className="body_page">
         fontSize="25px"
       />
       <SquaButton
+        src={MixedPaper}
         color="#ffdc00"
         text="Mixed Paper"
         width="130px"
@@ -35,6 +45,7 @@ const Category = ({ }) => <div className="body_page">
         fontSize="25px"
       />
       <SquaButton
+        src={GlassCan}
         color="#000000"
         text="Waste"
         width="130px"
@@ -42,6 +53,7 @@ const Category = ({ }) => <div className="body_page">
         fontSize="25px"
       />
       <SquaButton
+        src={Waste}
         color="#9D9D9D"
         text="Glass & Can"
         width="120px"
@@ -50,9 +62,11 @@ const Category = ({ }) => <div className="body_page">
       />
     </div>
     <br />
-    
+
   </div>
-  <ArrowButtonLeft />
+  <div className="the_footer">
+    <ArrowButtonLeft />
+  </div>
 
 </div>
 
