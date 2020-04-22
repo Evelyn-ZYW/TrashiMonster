@@ -15,14 +15,14 @@ const Location = () => <div class="body_page">
     <div>
       <img className="loc_img" src={locImg1} />
       <RectButton
-        color="#3b27ba"
+        backgroundColor="#3b27ba"
         text="School"
       />
     </div>
     <div>
       <img className="loc_img" src={locImg2} />
       <RectButton
-        color="#e847a1"
+        backgroundColor="#e847a1"
         text="Home" />
     </div>
   </div>

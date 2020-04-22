@@ -3,6 +3,6 @@
   flex-direction: column;
 }
 #summary_body_cont2 {
-display: inline;
+display: flex;
 flex-direction: row;
 }

@@ -1,5 +1,6 @@
 #button_long {
   display: inline-flex;
+  position: relative;
   flex-direction: row;
   color: white;
   border-radius:10pt;
@@ -12,11 +13,17 @@
   height:80px;
 }
 #long_button_img {
+  position: absolute;
+  left: 5px;
   max-width: 70px;
 }
 #long_button_texts {
   display: flex;
-  margin: 5px;
+  position: absolute;
+  right: 5px;
+  flex-direction: column;
+  width: 200px;
+  /* margin: 5px; */
 }
 
 #long_button_text1 {

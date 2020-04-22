@@ -2,7 +2,7 @@ import React from 'react';
 import './result.css';
 
 import Header from '../../comps/Header';
-import ArrowButton from '../../comps/Button/ArrowButton';
+import ArrowButton from '../../comps/Button/ArrowButtonLeft';
 
 const Mountain = require('../../imgs/organic_week.png')
 const ShockedMonster = require('../../imgs/monster.png')

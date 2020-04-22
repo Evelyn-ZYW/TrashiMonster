@@ -2,7 +2,7 @@ import React from 'react';
 import './tips.css';
 
 import Header from '../../comps/Header';
-import ArrowButton from '../../comps/Button/ArrowButton';
+import ArrowButton from '../../comps/Button/ArrowButtonLeft';
 import SquaButton from '../../comps/Button/SquaButton';
 
 const Organic = require('../../imgs/organic.png');

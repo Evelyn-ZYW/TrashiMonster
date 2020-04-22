@@ -2,7 +2,7 @@ import React from 'react';
 import './summary.css';
 
 import Header from '../../comps/Header';
-import ArrowButton from '../../comps/Button/ArrowButton';
+import ArrowButton from '../../comps/Button/ArrowButtonLeft';
 import RectButton from '../../comps/Button/RectButton';
 import LongButton from '../../comps/Button/LongButton';
 

@@ -15,10 +15,10 @@ const Home = () => <div
   <img src={MyHomeImg2} id="globe" />
 
   <RectButton 
-  color="#3b27ba"
+  backgroundColor="#3b27ba"
   text="START"/>
   <RectButton 
-  color="#e847a1"
+  backgroundColor="#e847a1"
   text="See Tutorial"/>
 
 </div>

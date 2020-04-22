@@ -1,10 +1,10 @@
 import React from 'react';
 import './rect.css';
 
-const RectButton = ({ text, color, onClick }) =>
+const RectButton = ({ text, color, backgroundColor, onClick }) =>
   <div
     className="button_rect"
-    style={{ backgroundColor: color, boxShadow: "1px 1px 5px" + color }}
+    style={{ backgroundColor: backgroundColor, color: color, boxShadow: "1px 1px 5px" + backgroundColor }}
     onClick={onClick}
   >
       {text}
@@ -12,7 +12,8 @@ const RectButton = ({ text, color, onClick }) =>
 
 RectButton.defaultProps = {
   text: "rectangle",
-  color: "#3b27ba"
+  color: "#FFFFFF",
+  backgroundColor: "#3b27ba"
 }
 
 export default RectButton;

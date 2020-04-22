@@ -1,6 +1,5 @@
 .button_rect {
-  display: inline;
-  color: white;
+  display: flex;
   font-size: 16pt;
   border-radius: 10pt;
   /* align-items: center; */

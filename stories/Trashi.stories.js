@@ -1,10 +1,11 @@
 import React from 'react';
 
-import ArrowButton from '../comps/Button/ArrowButton';
+import ArrowButton from '../comps/Button/ArrowButtonLeft';
 import RectButton from '../comps/Button/RectButton';
 import SquaButton from '../comps/Button/SquaButton';
 import LongButton from '../comps/Button/LongButton';
 import Header from '../comps/Header';
+import Footer from '../comps/Footer';
 import Menu from '../comps/Menu';
 
 import Home from '../pages/Home';
@@ -17,24 +18,19 @@ import Summary from '../pages/Summary';
 
 import Tutorial from '../pages/Tutorial';
 
+const ArrowButtonRight = require('../imgs/arrow_right.svg');
+const ArrowButtonLeft = require('../imgs/arrow_left.svg');
+
 export default {
   title: "My comps",
   component: Header
 }
 
 export const MyHeader = () => <Header />;
+export const MyFooter = () => <Footer />;
 
-export const MyArrowButton = () => <div>
-  <ArrowButton
-  className="left"
-  src1="{src1}"
-  />
-    <ArrowButton
-  className="right"
-  src1="{src2}"
-  />
-</div>;
-
+export const MyArrowButtonLeft = () => <ArrowButtonLeft />;
+export const MyArrowButtonRight = () => <ArrowButtonRight />;
 
 export const MyRectButton = () => <RectButton />;
 export const MySquaButton = () => <div>
