@@ -2,7 +2,7 @@ import React from 'react';
 import './category.css';
 
 import Header from '../../comps/Header';
-import ArrowButton from '../../comps/Button/ArrowButtonLeft';
+import ArrowButtonLeft from '../../comps/Button/ArrowButtonLeft';
 import SquaButton from '../../comps/Button/SquaButton';
 
 const Category = ({ }) => <div className="body_page">
@@ -52,7 +52,7 @@ const Category = ({ }) => <div className="body_page">
     <br />
     
   </div>
-  <ArrowButton />
+  <ArrowButtonLeft />
 
 </div>
 

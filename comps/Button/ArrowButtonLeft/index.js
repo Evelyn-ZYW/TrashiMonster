@@ -1,7 +1,7 @@
 import React from 'react';
 import './arrow.css';
 
-const ArrowLeft = require('../../../imgs/arrow_left.svg');
+const arrowLeft = require('../../../imgs/arrow_left.svg');
 
 const ArrowButtonLeft = ({onClick, src }) => <div
   id="button_arrow"
@@ -11,7 +11,7 @@ const ArrowButtonLeft = ({onClick, src }) => <div
 </div>;
 
 ArrowButtonLeft.defaultProps = {
-  src: ArrowLeft
+  src: arrowLeft
 }
 
 export default ArrowButtonLeft;

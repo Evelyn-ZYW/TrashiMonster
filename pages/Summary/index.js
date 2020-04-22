@@ -2,7 +2,7 @@ import React from 'react';
 import './summary.css';
 
 import Header from '../../comps/Header';
-import ArrowButton from '../../comps/Button/ArrowButtonLeft';
+import ArrowButtonLeft from '../../comps/Button/ArrowButtonLeft';
 import RectButton from '../../comps/Button/RectButton';
 import LongButton from '../../comps/Button/LongButton';
 
@@ -46,7 +46,7 @@ const Summary = ({ text, src1, src2, src3, src4, src5, }) => <div className="bod
     />
   </div>
   <div id="summary_body_cont2">
-    <ArrowButton />
+    <ArrowButtonLeft />
     <RectButton />
   </div>
 </div>;

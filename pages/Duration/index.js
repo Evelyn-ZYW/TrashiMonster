@@ -3,7 +3,7 @@ import './duration.css';
 
 import Header from '../../comps/Header';
 import Footer from '../../comps/Header';
-import ArrowButton from '../../comps/Button/ArrowButtonLeft';
+import ArrowButtonLeft from '../../comps/Button/ArrowButtonLeft';
 import SquaButton from '../../comps/Button/SquaButton';
 
 const Duration = () => <div className="body_page">
@@ -36,7 +36,7 @@ const Duration = () => <div className="body_page">
     <br />
  
   </div>
-
+<ArrowButtonLeft />
 </div>;
 
 export default Duration;
