@@ -19,7 +19,7 @@ const Category = ({ }) => <div className="body_page">
     <br />
     <br />
     <p>Choose a category to have a closer look at!</p>
-    <div>
+    <div id="cat_width">
       <SquaButton
         src={Organic}
         color="#13ca91"

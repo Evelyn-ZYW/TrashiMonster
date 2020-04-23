@@ -1,7 +1,7 @@
 #the_header {
   position: absolute;
   top: 0px;
-  display: inline-flex;
+  display: flex;
   width: 414px;
 }
 

@@ -17,7 +17,6 @@ const Result = ({ text, src1, src2 }) => <div className="body_page">
       <br />
       <img className="ResultImg2" src={src2} />
     </div>
-
   </div>
   <div className="the_footer">
     <ArrowButtonLeft />
