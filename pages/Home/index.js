@@ -1,6 +1,23 @@
 import React from 'react';
 import './home.css';
 
+import Router from 'next/router';
+
+function ClickIndex(){
+  
+  setTimeout(function(){
+      Router.push("/Location");
+  }, 1000)
+}
+
+function ClickGo(){
+  
+  setTimeout(function(){
+      Router.push("/Tutorial");
+  }, 1000)
+}
+
+
 import Header from '../../comps/Header';
 import RectButton from '../../comps/Button/RectButton';
 
@@ -15,9 +32,13 @@ const Home = () => <div
   <img src={MyHomeImg2} id="globe" />
 
   <RectButton 
+   onClick={ClickIndex}
   backgroundColor="#3b27ba"
-  text="START"/>
+  text="START"
+ 
+  />
   <RectButton 
+  onClick={ClickGo}
   backgroundColor="#e847a1"
   text="See Tutorial"/>
 

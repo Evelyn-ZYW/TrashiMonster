@@ -1,6 +1,15 @@
 import React from 'react';
 import './category.css';
 
+import Router from 'next/router';
+
+function ClickIndex(){
+  
+  setTimeout(function(){
+      Router.push("/Result");
+  }, 1000)
+}
+
 import Header from '../../comps/Header';
 import ArrowButtonLeft from '../../comps/Button/ArrowButtonLeft';
 import SquaButton from '../../comps/Button/SquaButton';
@@ -21,6 +30,7 @@ const Category = ({ }) => <div className="body_page">
     <p>Choose a category to have a closer look at!</p>
     <div id="cat_width">
       <SquaButton
+      onClick={ClickIndex}
         src={Organic}
         color="#13ca91"
         text="Organic"

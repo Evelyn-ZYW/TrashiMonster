@@ -1,6 +1,16 @@
 import React from 'react';
 import './location.css';
 
+import Router from 'next/router';
+
+function ClickIndex(){
+  
+  setTimeout(function(){
+      Router.push("/Duration");
+  }, 1000)
+}
+
+
 import Header from '../../comps/Header';
 import RectButton from '../../comps/Button/RectButton';
 
@@ -15,6 +25,7 @@ const Location = () => <div class="body_page">
     <div>
       <img className="loc_img" src={locImg1} />
       <RectButton
+       onClick={ClickIndex}
         backgroundColor="#3b27ba"
         text="School"
       />

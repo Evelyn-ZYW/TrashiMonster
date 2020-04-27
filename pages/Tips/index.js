@@ -1,18 +1,30 @@
 import React from 'react';
 import './tips.css';
 
+import Router from 'next/router';
+
+function ClickIndex(){
+  
+  setTimeout(function(){
+      Router.push("/Summary");
+  }, 1000)
+}
+
 import Header from '../../comps/Header';
 import ArrowButtonLeft from '../../comps/Button/ArrowButtonLeft';
 import ArrowButtonRight from '../../comps/Button/ArrowButtonRight';
 import SquaButton from '../../comps/Button/SquaButton';
+import RectButton from '../../comps/Button/RectButton';
 
 const Organic = require('../../imgs/organic.png');
 
 const Tips = ({ color, text1, text2, text3, text4, text5, }) => <div className="body_page">
   <Header />
   <SquaButton
+  
     color={color}
-    text={text1} />
+    text={text1} 
+    />
   <p id="heading">{text2}</p>
   <div id="tips_body_cont1">
     <p id="tips_subtitle">Tips</p>
@@ -21,8 +33,16 @@ const Tips = ({ color, text1, text2, text3, text4, text5, }) => <div className="
     <p>{text5}</p>
   </div>
   <div className="the_footer">
-    <ArrowButtonLeft />
-    <ArrowButtonRight />
+    <ArrowButtonLeft/>
+  
+   <RectButton
+    backgroundColor="#FFFFFF"
+    color="#000000"
+    text="Summary!"
+    height="20px"
+    right = "-120px" 
+    onClick={ClickIndex}
+    />
   </div>
 </div>;
 

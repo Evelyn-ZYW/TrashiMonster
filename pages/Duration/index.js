@@ -1,6 +1,15 @@
 import React from 'react';
 import './duration.css';
 
+import Router from 'next/router';
+
+function ClickIndex(){
+  
+  setTimeout(function(){
+      Router.push("/Category");
+  }, 1000)
+}
+
 import Header from '../../comps/Header';
 import Footer from '../../comps/Header';
 import ArrowButtonLeft from '../../comps/Button/ArrowButtonLeft';
@@ -25,6 +34,7 @@ const Duration = () => <div className="body_page">
         height="70px" 
         fontSize="25pt" />
       <RectButton
+      onClick={ClickIndex}
         backgroundColor="#13ca91"
         text="1 Year"
         width="70px"

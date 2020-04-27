@@ -1,6 +1,15 @@
 import React from 'react';
 import './summary.css';
 
+import Router from 'next/router';
+
+function ClickIndex(){
+  
+  setTimeout(function(){
+      Router.push("/Home");
+  }, 1000)
+}
+
 import Header from '../../comps/Header';
 import Footer from '../../comps/Footer';
 import ArrowButtonLeft from '../../comps/Button/ArrowButtonLeft';
@@ -53,7 +62,9 @@ const Summary = ({ src1, src2, src3, src4, src5, }) => <div className="body_page
     color="#000000"
     text="Start Again!"
     height="20px"
-    right = "-120px" />
+    right = "-120px" 
+    onClick={ClickIndex}
+    />
   </div>
 
 </div>;
