@@ -1,0 +1,9 @@
+.the_footer {
+  position: absolute;
+  bottom: 0;
+  display: inline-flex;
+  width: 414px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}

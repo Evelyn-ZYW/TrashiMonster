@@ -1,0 +1,15 @@
+#menu1 {
+  display: inline-flex;
+  flex-direction: column;
+  border-radius: 5pt;
+  background-color: #ff9472;
+  width:150px;
+  height: 150px;
+  opacity:0.5;
+  color: white;
+}
+.menu_options {
+  font-weight: 10px;
+  display: inline;
+  padding:3px;
+}

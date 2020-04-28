@@ -1,0 +1,24 @@
+#location_page {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#location_page div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.loc_img {
+  max-width: 150px;
+  margin:10px 10px 30px 10px;
+}
+#need_space {
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1 1;
+  justify-content: space-evenly;
+}
