@@ -3,7 +3,7 @@ import './location.css';
 
 import Router from 'next/router';
 
-function ClickIndex(){
+function goDuration(){
   
   setTimeout(function(){
       Router.push("/Duration");
@@ -25,7 +25,7 @@ const Location = () => <div class="body_page">
     <div>
       <img className="loc_img" src={locImg1} />
       <RectButton
-       onClick={ClickIndex}
+       onClick={goDuration}
         backgroundColor="#3b27ba"
         text="School"
       />
@@ -33,7 +33,7 @@ const Location = () => <div class="body_page">
     <div>
       <img className="loc_img" src={locImg2} />
       <RectButton
-        onClick={ClickIndex}
+        onClick={goDuration}
         backgroundColor="#e847a1"
         text="Home" />
     </div>
