@@ -25,7 +25,7 @@ const MyHomeImg1 = require('../../imgs/monster.png');
 const MyHomeImg2 = require('../../imgs/globe.png');
 
 const Home = () => <div
-  class="body_page">
+  className="body_page">
   <Header />
 
   <img src={MyHomeImg1} id="green_monster" />
