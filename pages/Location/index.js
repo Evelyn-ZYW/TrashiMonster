@@ -33,6 +33,7 @@ const Location = () => <div class="body_page">
     <div>
       <img className="loc_img" src={locImg2} />
       <RectButton
+        onClick={ClickIndex}
         backgroundColor="#e847a1"
         text="Home" />
     </div>

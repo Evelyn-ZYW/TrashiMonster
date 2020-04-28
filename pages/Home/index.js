@@ -3,14 +3,14 @@ import './home.css';
 
 import Router from 'next/router';
 
-function ClickIndex(){
+function ClickStart(){
   
   setTimeout(function(){
       Router.push("/Location");
   }, 1000)
 }
 
-function ClickGo(){
+function GoTutorial(){
   
   setTimeout(function(){
       Router.push("/Tutorial");
@@ -32,13 +32,13 @@ const Home = () => <div
   <img src={MyHomeImg2} id="globe" />
 
   <RectButton 
-   onClick={ClickIndex}
+   onClick={ClickStart}
   backgroundColor="#3b27ba"
   text="START"
  
   />
   <RectButton 
-  onClick={ClickGo}
+  onClick={GoTutorial}
   backgroundColor="#e847a1"
   text="See Tutorial"/>
 

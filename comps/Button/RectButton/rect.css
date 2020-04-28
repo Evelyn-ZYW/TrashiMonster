@@ -8,4 +8,8 @@
   padding: 15px;
   margin: 8px;
   font-family: 'Boogaloo', cursive;
+  cursor: pointer;
+}
+.button_rect:hover {
+  box-shadow: 5px 5px 5px #888888;
 }

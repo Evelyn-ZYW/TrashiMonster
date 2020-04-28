@@ -1,20 +1,25 @@
 import React from 'react';
 import './result.css';
-
 import Router from 'next/router';
+import Header from '../../comps/Header';
+import ArrowButtonLeft from '../../comps/Button/ArrowButtonLeft';
+import ArrowButtonRight from '../../comps/Button/ArrowButtonRight';
+import RectButton from '../../comps/Button/RectButton';
 
-function ClickIndex(){
+
+function SeeTips(){
   
   setTimeout(function(){
       Router.push("/Tips");
   }, 1000)
 }
 
-import Header from '../../comps/Header';
-import ArrowButtonLeft from '../../comps/Button/ArrowButtonLeft';
-import ArrowButtonRight from '../../comps/Button/ArrowButtonRight';
-import RectButton from '../../comps/Button/RectButton';
-
+function goBack(){
+  
+  setTimeout(function(){
+      Router.push("/Category");
+  }, 1000)
+}
 
 const Mountain = require('../../imgs/organic_week.png')
 const ShockedMonster = require('../../imgs/monster.png')
@@ -30,7 +35,7 @@ const Result = ({ text, src1, src2}) => <div className="body_page">
     </div>
   </div>
   <div className="the_footer" >
-    <ArrowButtonLeft />
+    <ArrowButtonLeft onClick={goBack} />
     {/* <ArrowButtonRight /> */}
     <RectButton
     backgroundColor="#FFFFFF"
@@ -38,7 +43,7 @@ const Result = ({ text, src1, src2}) => <div className="body_page">
     text="Tips!"
     height="20px"
     right = "-120px" 
-    onClick={ClickIndex}
+    onClick={SeeTips}
     />
   </div>
 </div>;

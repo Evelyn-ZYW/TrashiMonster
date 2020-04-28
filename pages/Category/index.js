@@ -1,18 +1,23 @@
 import React from 'react';
 import './category.css';
-
 import Router from 'next/router';
+import Header from '../../comps/Header';
+import ArrowButtonLeft from '../../comps/Button/ArrowButtonLeft';
+import SquaButton from '../../comps/Button/SquaButton';
 
-function ClickIndex(){
+
+function SeeResult(){
   
   setTimeout(function(){
       Router.push("/Result");
   }, 1000)
 }
-
-import Header from '../../comps/Header';
-import ArrowButtonLeft from '../../comps/Button/ArrowButtonLeft';
-import SquaButton from '../../comps/Button/SquaButton';
+function goBack(){
+  
+  setTimeout(function(){
+      Router.push("/Duration");
+  }, 1000)
+}
 
 const Organic = require('../../imgs/organic.png');
 const Plastic = require('../../imgs/plastic.png');
@@ -30,7 +35,7 @@ const Category = ({ }) => <div className="body_page">
     <p>Choose a category to have a closer look at!</p>
     <div id="cat_width">
       <SquaButton
-      onClick={ClickIndex}
+        onClick={SeeResult}
         src={Organic}
         color="#13ca91"
         text="Organic"
@@ -39,6 +44,7 @@ const Category = ({ }) => <div className="body_page">
         fontSize="25px"
       />
       <SquaButton
+        onClick={SeeResult}
         src={Plastic}
         color="#0090ff"
         text="Plastic"
@@ -47,6 +53,7 @@ const Category = ({ }) => <div className="body_page">
         fontSize="25px"
       />
       <SquaButton
+        onClick={SeeResult}
         src={MixedPaper}
         color="#ffdc00"
         text="Mixed Paper"
@@ -55,6 +62,7 @@ const Category = ({ }) => <div className="body_page">
         fontSize="25px"
       />
       <SquaButton
+        onClick={SeeResult}
         src={GlassCan}
         color="#000000"
         text="Waste"
@@ -63,6 +71,7 @@ const Category = ({ }) => <div className="body_page">
         fontSize="25px"
       />
       <SquaButton
+        onClick={SeeResult}
         src={Waste}
         color="#9D9D9D"
         text="Glass & Can"
@@ -75,7 +84,7 @@ const Category = ({ }) => <div className="body_page">
 
   </div>
   <div className="the_footer">
-    <ArrowButtonLeft />
+    <ArrowButtonLeft onClick={goBack} />
   </div>
 
 </div>

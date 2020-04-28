@@ -1,12 +1,18 @@
 import React from 'react';
 import './duration.css';
-
 import Router from 'next/router';
 
-function ClickIndex(){
-  
+function goCategory(){
+
   setTimeout(function(){
       Router.push("/Category");
+  }, 1000)
+}
+
+function goBack(){
+
+  setTimeout(function(){
+    Router.push("/Location");
   }, 1000)
 }
 
@@ -22,19 +28,21 @@ const Duration = () => <div className="body_page">
 
     <div>
       <RectButton
+        onClick={goCategory}
         backgroundColor="#3b27ba"
         text="1 Week"
         width="70px"
         height="70px"
         fontSize="25pt" />
       <RectButton
+        onClick={goCategory}
         backgroundColor="#e847a1"
         text="1 Month"
         width="70px"
         height="70px" 
         fontSize="25pt" />
       <RectButton
-      onClick={ClickIndex}
+        onClick={goCategory}
         backgroundColor="#13ca91"
         text="1 Year"
         width="70px"
@@ -43,7 +51,7 @@ const Duration = () => <div className="body_page">
     </div>
   </div>
   <div className="the_footer">
-    <ArrowButtonLeft />
+    <ArrowButtonLeft onClick={goBack}/>
   </div>
 
 

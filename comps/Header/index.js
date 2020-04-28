@@ -5,6 +5,7 @@ import { loadGetInitialProps } from 'next/dist/next-server/lib/utils';
 
 const defaultLogo = require('../../imgs/logo.png');
 const defaultHam = require('../../imgs/ham.svg');
+//function showMenu 
 
 const Header = ({img, ham, backgroundColor}) => <div
 id="the_header"
