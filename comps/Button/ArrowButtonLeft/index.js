@@ -3,8 +3,8 @@ import './arrowleft.css';
 
 const ArrowLeft = require("../../../imgs/arrow_left.svg")
 
-const ArrowButtonLeft = ({ src }) => <div
-  className="arrow_button" id="arrow_left">
+const ArrowButtonLeft = ({ src, onClick }) => <div
+  className="arrow_button" id="arrow_left" onClick={onClick}>
   <img src={src} />
 </div>;
 

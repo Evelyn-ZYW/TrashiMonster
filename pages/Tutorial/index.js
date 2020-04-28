@@ -7,6 +7,12 @@ import LongButton from '../../comps/Button/LongButton';
 
 import Header from '../../comps/Header';
 
+function goBack(){
+  
+  setTimeout(function(){
+      Router.push("/Home");
+  }, 1000)
+}
 
 const locImg1 = require('../../imgs/school.png');
 const locImg2 = require('../../imgs/household.png');
@@ -196,7 +202,8 @@ const Tutorial = ({ }) => <div id="tutorial_page">
       <RectButton
         text="Start Now!"
         color="#000000"
-        backgroundColor="#FFFFFF" />
+        backgroundColor="#FFFFFF" 
+        onclick={goBack}/>
     </div>
     <br />
     <br />
