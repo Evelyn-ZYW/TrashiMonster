@@ -7,7 +7,9 @@ import LongButton from '../../comps/Button/LongButton';
 
 import Header from '../../comps/Header';
 
-function goBack(){
+import Router from 'next/router';
+
+function GoBack(){
   
   setTimeout(function(){
       Router.push("/Home");
@@ -203,7 +205,7 @@ const Tutorial = ({ }) => <div id="tutorial_page">
         text="Start Now!"
         color="#000000"
         backgroundColor="#FFFFFF" 
-        onclick={goBack}/>
+        onClick={GoBack}/>
     </div>
     <br />
     <br />
