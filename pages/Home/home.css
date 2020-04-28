@@ -1,5 +1,5 @@
 .body_page {
-  position: absolute;
+  position: relative;
   display: flex;
   flex-direction: column;
   background-color:#ff9472;

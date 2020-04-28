@@ -7,19 +7,17 @@ const defaultLogo = require('../../imgs/logo.png');
 const defaultHam = require('../../imgs/ham.svg');
 //function showMenu 
 
-const Header = ({img, ham, backgroundColor}) => <div
-id="the_header"
-style={{backgroundColor:backgroundColor}}>
+const Header = ({img, ham}) => <div
+id="the_header">
   <img id="logo" src={img} />
-  <div>Trashi Monster</div>
+  <div id="logo_text">Trashi Monster</div>
   <img id="menu" src={ham} />
 </div>;
 
 
 Header.defaultProps = {
   img: defaultLogo,
-  ham: defaultHam,
-  backgroundColor: "#ff9472"
+  ham: defaultHam,  
 }
 
 
