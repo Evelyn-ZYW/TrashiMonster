@@ -3,7 +3,7 @@ import './tips.css';
 
 import Router from 'next/router';
 
-function ClickIndex(){
+function goSummary(){
   
   setTimeout(function(){
       Router.push("/Summary");
@@ -41,7 +41,7 @@ const Tips = ({ color, text1, text2, text3, text4, text5, }) => <div className="
     text="Summary!"
     height="20px"
     right = "-120px" 
-    onClick={ClickIndex}
+    onClick={goSummary}
     />
   </div>
 </div>;

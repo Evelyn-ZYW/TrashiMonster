@@ -3,7 +3,7 @@ import './summary.css';
 
 import Router from 'next/router';
 
-function ClickIndex(){
+function goHome(){
   
   setTimeout(function(){
       Router.push("/Home");
@@ -63,7 +63,7 @@ const Summary = ({ src1, src2, src3, src4, src5, }) => <div className="body_page
     text="Start Again!"
     height="20px"
     right = "-120px" 
-    onClick={ClickIndex}
+    onClick={goHome}
     />
   </div>
 
