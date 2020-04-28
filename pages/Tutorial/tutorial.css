@@ -14,8 +14,8 @@
 }
 #tutorial_body  {
   background-color: #ff9472;
-  position: absolute;
-  top: 100px;
+  position: relative;
+  top: 110px;
   display: flex;
   flex-direction: column;
   align-items: center;

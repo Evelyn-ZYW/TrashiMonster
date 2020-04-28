@@ -1,8 +1,10 @@
 #the_header {
-  position: relative;
+  position: fixed;
   top: 0px;
   display: flex;
   width: 414px;
+  height: 110px;
+  background-color: #ff9472;
 }
 
 #logo {
@@ -10,7 +12,7 @@
   margin: 15px;
 }
 
-#the_header div {
+#logo_text {
   color: #0090ff;
   text-align: center;
   justify-content: center;
