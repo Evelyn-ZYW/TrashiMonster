@@ -10,6 +10,13 @@ function goSummary(){
   }, 1000)
 }
 
+function goBack(){
+  
+  setTimeout(function(){
+      Router.push("/Result");
+  }, 1000)
+}
+
 import Header from '../../comps/Header';
 import ArrowButtonLeft from '../../comps/Button/ArrowButtonLeft';
 import ArrowButtonRight from '../../comps/Button/ArrowButtonRight';
@@ -33,7 +40,7 @@ const Tips = ({ color, text1, text2, text3, text4, text5, }) => <div className="
     <p>{text5}</p>
   </div>
   <div className="the_footer">
-    <ArrowButtonLeft/>
+    <ArrowButtonLeft onClick={goBack}/>
   
    <RectButton
     backgroundColor="#FFFFFF"
