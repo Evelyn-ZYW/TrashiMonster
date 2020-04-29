@@ -10,7 +10,7 @@ import Header from '../../comps/Header';
 import Router from 'next/router';
 
 function GoBack(){
-  
+  console.log(GoBack);
   setTimeout(function(){
       Router.push("/Home");
   }, 1000)
