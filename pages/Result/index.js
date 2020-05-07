@@ -22,7 +22,7 @@ function goBack(){
 }
 
 const Mountain = require('../../imgs/organic_week.png')
-const ShockedMonster = require('../../imgs/monster.png')
+const ShockedMonster = require('../../imgs/monster_squished.png')
 
 const Result = ({ text, src1, src2}) => <div className="body_page">
   <Header />
