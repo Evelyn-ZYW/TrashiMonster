@@ -4,15 +4,16 @@
   display: flex;
   width: 375px;
   height: 110px;
-  border:1px solid black;
   margin: 0;
-  /* background-color: #ff9472; */
+  background-color: #ff9472;
+  flex-direction: row;
 }
 
-#logo {
+#logo img{
   max-width: 75px;
   margin: 15px;
   overflow: hidden;
+  cursor: pointer;
 }
 
 #logo_text {
@@ -25,7 +26,7 @@
   margin-left: -10px;
 }
 
-#menu {
+#ham_menu img{
   max-width: 25px;
   margin: 20px;
   cursor: pointer;

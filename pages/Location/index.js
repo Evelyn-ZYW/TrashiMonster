@@ -26,7 +26,7 @@ function GoHome(){
   }, 500)
 }
 
-const Location = () => <div class="body_page">
+const Location = () => <div className="body_page">
   <Header />
 
   <p className="sub_head">Choose a place you want to discover!</p>

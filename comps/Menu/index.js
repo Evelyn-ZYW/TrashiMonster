@@ -24,9 +24,9 @@ function goSummary(){
 const Menu = () => <div
 id="menu1"
 >
-  <div className="menu_options" onclick={goHome}>Home</div>
-  <div className="menu_options" onclick={goTutorial}>Tutorial</div>
-  <div className="menu_options" onclick={goSummary}>Types of Waste</div>
+  <div className="menu_options" onClick={goHome}>Home</div>
+  <div className="menu_options" onClick={goTutorial}>Tutorial</div>
+  <div className="menu_options" onClick={goSummary}>Types of Waste</div>
 </div>;
 
 export default Menu;
