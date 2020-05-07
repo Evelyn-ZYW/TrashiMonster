@@ -2,27 +2,33 @@
   position: fixed;
   top: 0px;
   display: flex;
-  width: 414px;
+  width: 375px;
   height: 110px;
+  margin: 0;
   background-color: #ff9472;
+  flex-direction: row;
+  z-index: 99;
 }
 
-#logo {
+#logo img{
   max-width: 75px;
   margin: 15px;
+  overflow: hidden;
+  cursor: pointer;
 }
 
 #logo_text {
-  color: #0090ff;
+  color:black;
   text-align: center;
   justify-content: center;
-  padding-top: 30px;
+  padding-top: 35px;
   font-family: 'Walter Turncoat', cursive;
-  font-size: 23pt;
+  font-size: 20pt;
+  margin-left: -10px;
 }
 
-#menu {
+#ham_menu img{
   max-width: 25px;
-  margin-left: 20px;
+  margin: 20px;
   cursor: pointer;
 }

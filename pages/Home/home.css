@@ -1,13 +1,17 @@
+html, body {
+  margin: 0;
+}
 .body_page {
   position: relative;
   display: flex;
   flex-direction: column;
-  background-color:#ff9472;
-  width: 414px;
-  height:736px;
+  /* background-color:#ff9472; */
+  width: 375px;
+  height:812px;
   align-items: center;
   justify-content: center;
-  z-index: -1;
+  border: 1px solid black;
+  margin: 0;
 }
 
 #green_monster{

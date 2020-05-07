@@ -28,11 +28,12 @@ const Waste = require('../../imgs/waste.png');
 
 const Category = ({ }) => <div className="body_page">
   <Header />
+  <p className="sub_head">Choose a category to have a closer look at!</p>
   <div id="body_cont2">
     <br />
     <br />
     <br />
-    <p>Choose a category to have a closer look at!</p>
+  
     <div id="cat_width">
       <SquaButton
         onClick={SeeResult}

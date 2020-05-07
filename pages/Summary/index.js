@@ -3,10 +3,16 @@ import './summary.css';
 
 import Router from 'next/router';
 
-function goHome(){
+function goLocation(){
   
   setTimeout(function(){
-      Router.push("/Home");
+      Router.push("/Location");
+  }, 1000)
+}
+function goTips(){
+  
+  setTimeout(function(){
+      Router.push("/Tips");
   }, 1000)
 }
 
@@ -15,6 +21,7 @@ import Footer from '../../comps/Footer';
 import ArrowButtonLeft from '../../comps/Button/ArrowButtonLeft';
 import RectButton from '../../comps/Button/RectButton';
 import LongButton from '../../comps/Button/LongButton';
+import ArrowButtonRight from '../../comps/Button/ArrowButtonRight';
 
 const Organic = require('../../imgs/organic.png');
 const Plastic = require('../../imgs/plastic.png');
@@ -56,15 +63,9 @@ const Summary = ({ src1, src2, src3, src4, src5, }) => <div className="body_page
     />
   </div>
   <div className="the_footer">
-    <ArrowButtonLeft />
-    <RectButton
-    backgroundColor="#FFFFFF"
-    color="#000000"
-    text="Start Again!"
-    height="20px"
-    right = "-120px" 
-    onClick={goHome}
-    />
+    <ArrowButtonLeft onClick={goTips}/>
+    <ArrowButtonRight onClick={goLocation}/>
+    <span>Start Again!</span>
   </div>
 
 </div>;
