@@ -13,14 +13,14 @@ function ClickStart(){
   console.log(ClickStart);
   setTimeout(function(){
       Router.push("/Location");
-  }, 1000)
+  }, 500)
 }
 
 function GoTutorial(){
   console.log(GoTutorial);
   setTimeout(function(){
       Router.push("/Tutorial");
-  }, 1000)
+  }, 500)
 }
 
 const Home = () => <div
@@ -34,12 +34,14 @@ const Home = () => <div
    onClick={ClickStart}
   backgroundColor="#3b27ba"
   text="START"
- 
+  fontSize="18px"
   />
   <RectButton 
   onClick={GoTutorial}
   backgroundColor="#e847a1"
-  text="See Tutorial"/>
+  text="TUTORIAL"
+  fontSize="18px"
+  />
 
 </div>
 

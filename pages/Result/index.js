@@ -37,14 +37,7 @@ const Result = ({ text, src1, src2}) => <div className="body_page">
   <div className="the_footer" >
     <ArrowButtonLeft onClick={goBack} />
     {/* <ArrowButtonRight /> */}
-    <RectButton
-    backgroundColor="#FFFFFF"
-    color="#000000"
-    text="Tips!"
-    height="20px"
-    right = "-120px" 
-    onClick={SeeTips}
-    />
+    <ArrowButtonRight />
   </div>
 </div>;
 

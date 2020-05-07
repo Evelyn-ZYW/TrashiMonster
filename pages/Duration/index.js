@@ -23,9 +23,11 @@ import RectButton from '../../comps/Button/RectButton';
 
 const Duration = () => <div className="body_page">
   <Header />
-  <div id="body_cont1">
-    <p>Do you know how much waste can be producted within below periods?</p>
 
+
+  <div id="body_cont1">
+    
+  <p className="sub_head">Do you know how much waste can be produced within below periods?</p>
     <div>
       <RectButton
         onClick={goCategory}

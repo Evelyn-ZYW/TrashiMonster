@@ -42,14 +42,7 @@ const Tips = ({ color, text1, text2, text3, text4, text5, }) => <div className="
   <div className="the_footer">
     <ArrowButtonLeft onClick={goBack}/>
   
-   <RectButton
-    backgroundColor="#FFFFFF"
-    color="#000000"
-    text="Summary!"
-    height="20px"
-    right = "-120px" 
-    onClick={goSummary}
-    />
+   <ArrowButtonRight />
   </div>
 </div>;
 
