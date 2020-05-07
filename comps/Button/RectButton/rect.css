@@ -9,7 +9,8 @@
   margin: 8px;
   font-family: 'Boogaloo', cursive;
   cursor: pointer;
+  opacity: 0.7;
 }
 .button_rect:hover {
-  box-shadow: 5px 5px 5px #888888;
+  opacity: 1;
 }

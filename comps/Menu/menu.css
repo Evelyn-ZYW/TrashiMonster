@@ -3,13 +3,19 @@
   flex-direction: column;
   border-radius: 5pt;
   background-color: #ff9472;
-  width:150px;
-  height: 150px;
-  opacity:0.5;
+  width:160px;
+  height: 300px;
+  opacity:1;
   color: white;
+  right: -160px;
+  position: absolute;
+  padding-top: 10px;
+
 }
 .menu_options {
-  font-weight: 10px;
+  font-size: 24px;
   display: inline;
-  padding:3px;
+  padding:10px;
+  text-decoration: underline;
+  cursor: pointer;
 }
