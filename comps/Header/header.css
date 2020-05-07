@@ -4,9 +4,9 @@
   display: flex;
   width: 375px;
   height: 110px;
+  /* border:1px solid black; */
   margin: 0;
-  background-color: #ff9472;
-  flex-direction: row;
+  background-color: #ffffff;
   z-index: 99;
 }
 

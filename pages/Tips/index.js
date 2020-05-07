@@ -3,17 +3,17 @@ import './tips.css';
 
 import Router from 'next/router';
 
-function goSummary(){
-  
-  setTimeout(function(){
-      Router.push("/Summary");
+function goSummary() {
+
+  setTimeout(function () {
+    Router.push("/Summary");
   }, 1000)
 }
 
-function goBack(){
-  
-  setTimeout(function(){
-      Router.push("/Result");
+function goBack() {
+
+  setTimeout(function () {
+    Router.push("/Result");
   }, 1000)
 }
 
@@ -29,19 +29,20 @@ const Tips = ({ color, text1, text2, text3, text4, text5, }) => <div className="
   <Header />
   <SquaButton
     opacity={1} 
+    width="120px"
+    height="120px"
     color={color}
-    text={text1} 
-    />
+    text={text1}
+  />
   <p id="heading">{text2}</p>
   <div id="tips_body_cont1">
     <p id="tips_subtitle">Tips</p>
-    <p>{text3}</p>
-    <p>{text4}</p>
-    <p>{text5}</p>
+    <p className="body_texts">{text3}</p>
+    <p className="body_texts">{text4}</p>
+    <p className="body_texts">{text5}</p>
   </div>
   <div className="the_footer">
     <ArrowButtonLeft onClick={goBack}/>
-  
    <ArrowButtonRight onClick={goSummary}/>
   </div>
 </div>;

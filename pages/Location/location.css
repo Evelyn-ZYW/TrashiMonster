@@ -25,5 +25,8 @@
 .sub_head {
   font-size: 24px;
   width: 300px;
-  margin-left: 1em;
+  /* border: solid 1px black; */
+  position: absolute;
+  font-family: 'Boogaloo', cursive;
+  top: 130px;
 }

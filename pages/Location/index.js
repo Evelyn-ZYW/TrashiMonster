@@ -19,18 +19,19 @@ const locImg1 = require('../../imgs/school.png');
 const locImg2 = require('../../imgs/household.png');
 
 
-function GoHome(){
+function GoHome() {
   console.log(GoHome);
-  setTimeout(function(){
-      Router.push("/Home");
+  setTimeout(function () {
+    Router.push("/Home");
   }, 500)
 }
 
 const Location = () => <div className="body_page">
   <Header />
 
-  <p className="sub_head">Choose a place you want to discover!</p>
+
   <div id="location_page">
+    <p className="sub_head">Choose a place you want to discover!</p>
     <div>
       <img className="loc_img" src={locImg1} />
       <RectButton
@@ -45,12 +46,12 @@ const Location = () => <div className="body_page">
       <RectButton
         onClick={goDuration}
         backgroundColor="#e847a1"
-        text="Home" 
+        text="Home"
         fontSize="18px"
-        />
+      />
     </div>
   </div>
-  <ArrowButtonLeft onClick={GoHome}/>
+  <ArrowButtonLeft onClick={GoHome} />
 </div>
 
 export default Location;
