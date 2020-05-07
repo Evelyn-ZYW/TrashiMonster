@@ -9,6 +9,12 @@ function goHome(){
       Router.push("/Home");
   }, 1000)
 }
+function goTips(){
+  
+  setTimeout(function(){
+      Router.push("/Tips");
+  }, 1000)
+}
 
 import Header from '../../comps/Header';
 import Footer from '../../comps/Footer';
@@ -57,8 +63,8 @@ const Summary = ({ src1, src2, src3, src4, src5, }) => <div className="body_page
     />
   </div>
   <div className="the_footer">
-    <ArrowButtonLeft />
-    <ArrowButtonRight />
+    <ArrowButtonLeft onClick={goTips}/>
+    <ArrowButtonRight onClick={goHome}/>
   </div>
 
 </div>;

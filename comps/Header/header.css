@@ -7,6 +7,7 @@
   margin: 0;
   background-color: #ff9472;
   flex-direction: row;
+  z-index: 99;
 }
 
 #logo img{

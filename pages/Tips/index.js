@@ -28,7 +28,7 @@ const Organic = require('../../imgs/organic.png');
 const Tips = ({ color, text1, text2, text3, text4, text5, }) => <div className="body_page">
   <Header />
   <SquaButton
-  
+    opacity={1} 
     color={color}
     text={text1} 
     />
@@ -42,7 +42,7 @@ const Tips = ({ color, text1, text2, text3, text4, text5, }) => <div className="
   <div className="the_footer">
     <ArrowButtonLeft onClick={goBack}/>
   
-   <ArrowButtonRight />
+   <ArrowButtonRight onClick={goSummary}/>
   </div>
 </div>;
 
