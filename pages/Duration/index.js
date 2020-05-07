@@ -2,16 +2,16 @@ import React from 'react';
 import './duration.css';
 import Router from 'next/router';
 
-function goCategory(){
+function goCategory() {
 
-  setTimeout(function(){
-      Router.push("/Category");
+  setTimeout(function () {
+    Router.push("/Category");
   }, 1000)
 }
 
-function goBack(){
+function goBack() {
 
-  setTimeout(function(){
+  setTimeout(function () {
     Router.push("/Location");
   }, 1000)
 }
@@ -23,9 +23,11 @@ import RectButton from '../../comps/Button/RectButton';
 
 const Duration = () => <div className="body_page">
   <Header />
-  <div id="body_cont1">
-    <p>Do you know how much waste can be producted within below periods?</p>
 
+
+  <div id="duration_page">
+
+    <p className="sub_head">Do you know how much waste can be produced within below periods?</p>
     <div>
       <RectButton
         onClick={goCategory}
@@ -39,19 +41,19 @@ const Duration = () => <div className="body_page">
         backgroundColor="#e847a1"
         text="1 Month"
         width="70px"
-        height="70px" 
+        height="70px"
         fontSize="25pt" />
       <RectButton
         onClick={goCategory}
         backgroundColor="#13ca91"
         text="1 Year"
         width="70px"
-        height="70px" 
+        height="70px"
         fontSize="25pt" />
     </div>
   </div>
   <div className="the_footer">
-    <ArrowButtonLeft onClick={goBack}/>
+    <ArrowButtonLeft onClick={goBack} />
   </div>
 
 

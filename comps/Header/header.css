@@ -1,26 +1,33 @@
 #the_header {
-  position: absolute;
+  position: fixed;
   top: 0px;
   display: flex;
-  width: 414px;
+  width: 375px;
+  height: 110px;
+  /* border:1px solid black; */
+  margin: 0;
+  background-color: #ffffff;
+  z-index: 1;
 }
 
 #logo {
   max-width: 75px;
   margin: 15px;
+  overflow: hidden;
 }
 
-#the_header div {
-  color: #0090ff;
+#logo_text {
+  color:black;
   text-align: center;
   justify-content: center;
-  padding-top: 30px;
+  padding-top: 35px;
   font-family: 'Walter Turncoat', cursive;
-  font-size: 23pt;
+  font-size: 20pt;
+  margin-left: -10px;
 }
 
 #menu {
   max-width: 25px;
-  margin-left: 20px;
+  margin: 20px;
   cursor: pointer;
 }

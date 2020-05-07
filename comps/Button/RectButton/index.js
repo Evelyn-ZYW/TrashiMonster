@@ -7,7 +7,7 @@ const RectButton = ({ text, color, backgroundColor, fontSize, width, height, rig
     style={{ backgroundColor: backgroundColor, color: color, boxShadow: "1px 1px 1px" + backgroundColor, width: width, height: height, right: right, fontSize: fontSize }}
     onClick={onClick}
   >
-      {text}
+    {text}
   </div>;
 
 RectButton.defaultProps = {

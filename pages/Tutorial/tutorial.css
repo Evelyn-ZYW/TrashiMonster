@@ -1,25 +1,25 @@
 #tutorial_page {
   position: relative;
-  width: 414px;
-  background-color: #ff9472;
+  width: 375px;
+  /* background-color: #ff9472; */
 }
 .tutorial_text  {
+  font-family: 'Boogaloo', cursive;
   position: relative;
   margin: 30px;
-  font-size: 16pt;
-  color: #ffffff;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  font-size: 24px;
+  /* color: #0090FF; */
+  color:#000000;
+  text-align: left;
 }
 #tutorial_body  {
-  background-color: #ff9472;
-  position: absolute;
-  top: 100px;
+  /* background-color: #ff9472; */
+  position: relative;
+  top: 110px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  text-align: left;
 }
 .tutorial_steps {
   display: inline-flex;
@@ -27,11 +27,52 @@
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  width: 350px;
-  height: 600px;
-  background-color: #f2b8a6;
+  /* width: 200px;
+  height: 350px; */
+  /* background-color: #f2b8a6; */
   opacity: 5;
   border-radius: 15px;
   object-fit: scale-down;
   /* display: flex; */
 }
+/* .arrow-down {
+  width:100%;
+  margin:0 auto;
+  text-align: center;
+
+}
+.arrow-down::after {
+  content:"";
+  width:20px;
+  height:20px;
+  position: absolute;
+  margin:auto;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  border-right:4px solid #000;
+  border-bottom:4px solid #000;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-animation: 1.5s arrow infinite ease;
+  animation: 1.5s arrow infinite ease;
+}
+
+@-webkit-keyframes arrow {
+  0%, 100% {
+    top:50px;
+  }
+  50% {
+    top:80px;
+  }
+}
+
+@keyframes arrow {
+  0%, 100% {
+    top:50px;
+  }
+  50% {
+    top:80px;
+  }
+} */
