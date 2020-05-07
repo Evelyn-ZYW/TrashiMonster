@@ -26,7 +26,7 @@ id="menu1"
 >
   <div className="menu_options" onClick={goHome}>Home</div>
   <div className="menu_options" onClick={goTutorial}>Tutorial</div>
-  <div className="menu_options" onClick={goSummary}>Types of Waste</div>
+  <div className="menu_options" onClick={goSummary}>Summary</div>
 </div>;
 
 export default Menu;

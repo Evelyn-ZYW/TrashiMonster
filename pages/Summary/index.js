@@ -3,10 +3,10 @@ import './summary.css';
 
 import Router from 'next/router';
 
-function goHome(){
+function goLocation(){
   
   setTimeout(function(){
-      Router.push("/Home");
+      Router.push("/Location");
   }, 1000)
 }
 function goTips(){
@@ -64,7 +64,8 @@ const Summary = ({ src1, src2, src3, src4, src5, }) => <div className="body_page
   </div>
   <div className="the_footer">
     <ArrowButtonLeft onClick={goTips}/>
-    <ArrowButtonRight onClick={goHome}/>
+    <ArrowButtonRight onClick={goLocation}/>
+    <span>Start Again!</span>
   </div>
 
 </div>;
