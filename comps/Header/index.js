@@ -9,8 +9,16 @@ const defaultLogo = require('../../imgs/logo.png');
 const defaultHam = require('../../imgs/ham.svg');
 
 function showMenu() {
-  document.querySelector("#menu").style.right= 0;
-  document.querySelector("#menu").style.opacity= 1;
+  const Menu_state = flase;
+
+  if(Menu_state) {
+    document.querySelector("#menu").style.right= 0;
+    document.querySelector("#menu").style.opacity= 1;
+    Menu_state = true;
+  } else {
+    document.querySelector("#menu").style.right= -160;
+    document.querySelector("#menu").style.opacity= 0;
+  }
 }
 function goHome() {
   setTimeout(function(){

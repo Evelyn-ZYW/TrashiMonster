@@ -3,14 +3,14 @@
   flex-direction: column;
   border-radius: 5pt;
   background-color: #ff9472;
-  width:160px;
+  width:180px;
   height: 300px;
-  opacity:0.5;
+  opacity: 0.5;
   color: white;
   right: -160px;
-  position: absolute;
+  position: relative;
   padding-top: 10px;
-  transition: opacity 1s;
+  transition: opacity 1s, left 1s;
 }
 .menu_options {
   font-size: 24px;
