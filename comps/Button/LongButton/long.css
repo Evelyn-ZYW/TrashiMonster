@@ -9,13 +9,14 @@
   text-align: center;
   margin: 8px;
   font-family: 'Boogaloo', cursive;
-  width:290px;
-  height:80px;
+  width:300px;
+  height:100px;
 }
 #long_button_img {
   position: absolute;
-  left: 5px;
+  left: 10px;
   max-width: 70px;
+  overflow: hidden;
 }
 #long_button_texts {
   display: flex;
@@ -28,10 +29,11 @@
 
 #long_button_text1 {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 #long_button_text2 {
-  margin-top: -10px;
-  font-size: 16px;
+  margin-top: -20px;
+  margin-left: -10px;
+  font-size: 18px;
 }
