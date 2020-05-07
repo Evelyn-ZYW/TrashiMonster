@@ -3,10 +3,10 @@ import './summary.css';
 
 import Router from 'next/router';
 
-function goHome(){
-  
-  setTimeout(function(){
-      Router.push("/Home");
+function goHome() {
+
+  setTimeout(function () {
+    Router.push("/Home");
   }, 1000)
 }
 
@@ -25,6 +25,8 @@ const Waste = require('../../imgs/waste.png');
 
 const Summary = ({ src1, src2, src3, src4, src5, }) => <div className="body_page">
   <Header />
+  <br />
+  <br />
   <div id="summary_body_cont1">
     <LongButton
       color="#13ca91"

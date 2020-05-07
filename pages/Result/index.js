@@ -36,7 +36,6 @@ const Result = ({ text, src1, src2}) => <div className="body_page">
   </div>
   <div className="the_footer" >
     <ArrowButtonLeft onClick={goBack} />
-    {/* <ArrowButtonRight /> */}
     <ArrowButtonRight />
   </div>
 </div>;

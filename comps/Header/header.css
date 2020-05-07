@@ -6,7 +6,8 @@
   height: 110px;
   border:1px solid black;
   margin: 0;
-  /* background-color: #ff9472; */
+  background-color: #ffffff;
+  z-index: 1;
 }
 
 #logo {

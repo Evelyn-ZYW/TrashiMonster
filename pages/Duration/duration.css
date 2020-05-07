@@ -1,5 +1,9 @@
-#body_cont1 {
+#duration_page {
   /* display: flex; */
   /* flex-direction: column; */
-  width: 350px;
+  /* width: 350px; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
