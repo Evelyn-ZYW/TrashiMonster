@@ -9,10 +9,10 @@ import Header from '../../comps/Header';
 
 import Router from 'next/router';
 
-function GoBack(){
+function GoBack() {
   console.log(GoBack);
-  setTimeout(function(){
-      Router.push("/Home");
+  setTimeout(function () {
+    Router.push("/Location");
   }, 1000)
 }
 
@@ -40,22 +40,18 @@ const Tutorial = ({ }) => <div id="tutorial_page">
       <div id="location_page">
         <div>
           <img className="loc_img" src={locImg1} />
-          <RectButton
-            backgroundColor="#3b27ba"
-            text="School"
-          />
+
         </div>
         <div>
           <img className="loc_img" src={locImg2} />
-          <RectButton
-            backgroundColor="#e847a1"
-            text="Home" />
+
         </div>
       </div>
     </div>
 
     <p className="tutorial_text">Step 2: Choose a time duration</p>
 
+    {/* <div className="arrow-down"></div> */}
     <div className="tutorial_steps">
       <div>
         <RectButton
@@ -130,7 +126,6 @@ const Tutorial = ({ }) => <div id="tutorial_page">
 
     <div className="tutorial_steps">
       <div id="result_body_cont1">
-        <p className="ResultText" >An elementary school can produce 82614.83 kg of organic waste in a year. The weight is approximately equal to 20 elephants.</p>
         <div id="result_body_cont2">
           <img className="ResultImg1" src={Mountain} />
           <br />
@@ -141,72 +136,22 @@ const Tutorial = ({ }) => <div id="tutorial_page">
 
     <p className="tutorial_text">Step 5: See how you can help to reduce the waste</p>
 
-    <div className="tutorial_steps">
-      <div>
-        <SquaButton
-          color="#13ca91"
-          text="Organic" />
-      </div>
-      <div>
-        <p id="heading">Only take what you can eat</p>
-      </div>
-
-      <div id="tips_body_cont1">
-        <p id="tips_subtitle">Tips</p>
-        <p>You can still drink the milk in 2-3 days after the expiration date.</p>
-        <p>Bread past its expiration date can be safely eaten as long as it smells fine. So don't toss it out because it's 'too old.'</p>
-        <p>Frozen foods can be eaten long after their expiration date. Freezing food is the easiest way to extend its shelf life, whether it be vegetables or pastries.</p>
-      </div>
-    </div>
-
     <p className="tutorial_text">Step 6: See the conclusions</p>
 
+    <br />
+    <br />
+
+
     <div className="tutorial_steps">
-      <div id="summary_body_cont1">
-        <LongButton
-          color="#13ca91"
-          src={Organic}
-        />
-        <LongButton
-          color="#0090ff"
-          src={Plastic}
-          text1="Plastic"
-          text2="Use reusable containers, avoid food and drink wrapped in plastic"
-        />
-        <LongButton
-          color="#ffdc00"
-          src={MixedPaper}
-          text1="Mixed Paper"
-          text2="Choose eEditions instead of physical versions"
-        />
-        <LongButton
-          color="#9D9D9D"
-          src={GlassCan}
-          text1="Glass & Can"
-          text2="Reuse or recycle them properly"
-        />
-        <LongButton
-          color="#000000"
-          src={Waste}
-          text1="Waste"
-          text2="Repair rather than discard & use up the items you already have"
-        />
-      </div>
+        <RectButton
+          text="Start Now!"
+          color="#FFFFFF"
+          backgroundColor="#0090FF"
+          onClick={GoBack} />
     </div>
 
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
 
-    <div>
-      <RectButton
-        text="Start Now!"
-        color="#000000"
-        backgroundColor="#FFFFFF" 
-        onClick={GoBack}/>
-    </div>
+
     <br />
     <br />
   </div>

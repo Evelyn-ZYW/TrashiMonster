@@ -22,7 +22,7 @@ function goBack(){
 }
 
 const Mountain = require('../../imgs/organic_week.png')
-const ShockedMonster = require('../../imgs/monster.png')
+const ShockedMonster = require('../../imgs/monster_squished.png')
 
 const Result = ({ text, src1, src2}) => <div className="body_page">
   <Header />
@@ -34,6 +34,7 @@ const Result = ({ text, src1, src2}) => <div className="body_page">
       <img className="ResultImg2" src={src2} />
     </div>
   </div>
+  <p>Click on right arrow to see <b>How to Reduce Garbage!</b></p>
   <div className="the_footer" >
     <ArrowButtonLeft onClick={goBack} />
     <ArrowButtonRight onClick={SeeTips}/>

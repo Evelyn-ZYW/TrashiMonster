@@ -6,16 +6,16 @@ import ArrowButtonLeft from '../../comps/Button/ArrowButtonLeft';
 import SquaButton from '../../comps/Button/SquaButton';
 
 
-function SeeResult(){
-  
-  setTimeout(function(){
-      Router.push("/Result");
+function SeeResult() {
+
+  setTimeout(function () {
+    Router.push("/Result");
   }, 1000)
 }
-function goBack(){
-  
-  setTimeout(function(){
-      Router.push("/Duration");
+function goBack() {
+
+  setTimeout(function () {
+    Router.push("/Duration");
   }, 1000)
 }
 
@@ -29,11 +29,16 @@ const Waste = require('../../imgs/waste.png');
 const Category = ({ }) => <div className="body_page">
   <Header />
   <p className="sub_head">Choose a category to have a closer look at!</p>
-  <div id="body_cont2">
-    <br />
-    <br />
-    <br />
-  
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <div id="category_page">
+
+
     <div id="cat_width">
       <SquaButton
         onClick={SeeResult}
