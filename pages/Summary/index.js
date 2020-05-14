@@ -1,7 +1,12 @@
 import React from 'react';
 import './summary.css';
-
 import Router from 'next/router';
+import Header from '../../comps/Header';
+import Footer from '../../comps/Footer';
+import ArrowButtonLeft from '../../comps/Button/ArrowButtonLeft';
+import RectButton from '../../comps/Button/RectButton';
+import LongButton from '../../comps/Button/LongButton';
+import ArrowButtonRight from '../../comps/Button/ArrowButtonRight';
 
 function goLocation(){
   
@@ -13,14 +18,8 @@ function goTips(){
   
   setTimeout(function(){
       Router.push("/Tips");
+  }, 1000)
 }
-
-import Header from '../../comps/Header';
-import Footer from '../../comps/Footer';
-import ArrowButtonLeft from '../../comps/Button/ArrowButtonLeft';
-import RectButton from '../../comps/Button/RectButton';
-import LongButton from '../../comps/Button/LongButton';
-import ArrowButtonRight from '../../comps/Button/ArrowButtonRight';
 
 const Organic = require('../../imgs/organic.png');
 const Plastic = require('../../imgs/plastic.png');
@@ -63,10 +62,11 @@ const Summary = ({ src1, src2, src3, src4, src5, }) => <div className="body_page
       text2="Repair rather than discard & use up the items you already have"
     />
   </div>
+  <p>Click on right arrow to <b>Start Again!</b></p>
   <div className="the_footer">
     <ArrowButtonLeft onClick={goTips}/>
     <ArrowButtonRight onClick={goLocation}/>
-    <span>Start Again!</span>
+    
   </div>
 
 </div>;

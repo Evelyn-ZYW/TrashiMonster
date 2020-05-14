@@ -1,16 +1,14 @@
-#menu1 {
+#menu {
   display: inline-flex;
   flex-direction: column;
-  border-radius: 5pt;
   background-color: #ff9472;
   width:180px;
   height: 300px;
-  opacity: 0.5;
   color: white;
-  right: -160px;
-  position: relative;
   padding-top: 10px;
-  transition: opacity 1s, left 1s;
+  right: 100px;
+  transition: 1s all ease;
+  z-index: 1000;
 }
 .menu_options {
   font-size: 24px;

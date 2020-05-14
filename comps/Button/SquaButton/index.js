@@ -3,10 +3,10 @@ import './squa.css';
 
 const SquaImg = require('../../../imgs/organic.png');
 
-const SquaButton = ({text, src, color, onClick, width, height, fontSize }) =>
+const SquaButton = ({text, src, color, onClick, width, height, fontSize, opcity}) =>
   <div
     id="square_button"
-    style={{ backgroundColor: color, width: width, height: height, fontSize: fontSize }}
+    style={{ backgroundColor: color, width: width, height: height, fontSize: fontSize, opcity: opcity }}
     onClick={onClick}
   >
     <img className="button_img" src={src} />

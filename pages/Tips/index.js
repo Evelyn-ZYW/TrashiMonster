@@ -25,10 +25,9 @@ import RectButton from '../../comps/Button/RectButton';
 
 const Organic = require('../../imgs/organic.png');
 
-const Tips = ({ color, text1, text2, text3, text4, text5, }) => <div className="body_page">
+const Tips = ({ color, text1, text2, text3, text4, text5}) => <div className="body_page">
   <Header />
   <SquaButton
-    opacity={1} 
     width="120px"
     height="120px"
     color={color}
@@ -41,9 +40,10 @@ const Tips = ({ color, text1, text2, text3, text4, text5, }) => <div className="
     <p className="body_texts">{text4}</p>
     <p className="body_texts">{text5}</p>
   </div>
+  <p>Click on right arrow to see more <b>Tips!</b></p>
   <div className="the_footer">
     <ArrowButtonLeft onClick={goBack}/>
-   <ArrowButtonRight onClick={goSummary}/>
+    <ArrowButtonRight onClick={goSummary}/>
   </div>
 </div>;
 
