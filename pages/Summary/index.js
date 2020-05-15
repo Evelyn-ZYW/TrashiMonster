@@ -12,13 +12,13 @@ function goLocation(){
   
   setTimeout(function(){
       Router.push("/Location");
-  }, 1000)
+  }, 200)
 }
 function goTips(){
   
   setTimeout(function(){
       Router.push("/Tips");
-  }, 1000)
+  }, 200)
 }
 
 const Organic = require('../../imgs/organic.png');

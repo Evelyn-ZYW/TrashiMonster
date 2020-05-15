@@ -10,14 +10,14 @@ function SeeTips_waste(){
   
   setTimeout(function(){
       Router.push("/Tips/Tips_waste");
-  }, 1000)
+  }, 200)
 }
 
 function goBack(){
   
   setTimeout(function(){
       Router.push("/Category");
-  }, 1000)
+  }, 200)
 }
 
 const Mountain = require('../../../imgs/organic_week.png')

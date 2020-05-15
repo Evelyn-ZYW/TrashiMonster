@@ -50,3 +50,18 @@ html, body {
 p {
   font-family: 'PT Sans Narrow', sans-serif;
 }
+
+@media only screen and (min-width: 1024px) {
+  .body_page{
+    
+        float: none;
+        width: 100%;
+    
+  }
+}
+@media screen and (max-width: 375px) {
+  .body_page {
+    float: none;
+    width: 100%;
+  }
+}

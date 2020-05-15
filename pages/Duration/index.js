@@ -6,14 +6,14 @@ function goCategory() {
 
   setTimeout(function () {
     Router.push("/Category");
-  }, 1000)
+  }, 200)
 }
 
 function goBack() {
 
   setTimeout(function () {
     Router.push("/Location");
-  }, 1000)
+  }, 200)
 }
 
 import Header from '../../comps/Header';

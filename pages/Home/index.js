@@ -13,14 +13,14 @@ function ClickStart(){
   console.log(ClickStart);
   setTimeout(function(){
       Router.push("/Location");
-  }, 500)
+  }, 200)
 }
 
 function GoTutorial(){
   console.log(GoTutorial);
   setTimeout(function(){
       Router.push("/Tutorial");
-  }, 500)
+  }, 200)
 }
 
 const Home = () => <div
