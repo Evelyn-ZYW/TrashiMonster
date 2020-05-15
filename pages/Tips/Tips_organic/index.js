@@ -32,6 +32,7 @@ const Tips = ({ color, text1, text2, text3, text4, text5}) => <div className="bo
     color={color}
     text={text1}
     src={Organic}
+    opacity= {1}
   />
   <p id="heading">{text2}</p>
   <div id="tips_body_cont1">
@@ -48,6 +49,7 @@ const Tips = ({ color, text1, text2, text3, text4, text5}) => <div className="bo
 </div>;
 
 Tips.defaultProps = {
+  opacity: 1,
   color: "#13ca91",
   text1: "Organic",
   text2: "Only take what you can eat",
