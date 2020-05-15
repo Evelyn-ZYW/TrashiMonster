@@ -1,0 +1,22 @@
+#heading {
+  font-weight: bold;
+  font-size: 25px;
+  font-family: 'Boogaloo', cursive;
+}
+
+#tips_body_cont1 {
+  display: inline-flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+#tips_subtitle {
+  font-family: 'Boogaloo', cursive;
+  color: #e847a1;
+  font-weight: bold;
+  font-size: 24px;
+}
+.body_texts {
+  font-size: 18px;
+  margin: 10px 0px;
+}

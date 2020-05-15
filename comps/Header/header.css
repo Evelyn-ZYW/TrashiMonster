@@ -4,19 +4,21 @@
   display: flex;
   width: 375px;
   height: 110px;
-  /* border:1px solid black; */
   margin: 0;
+  z-index: 99;
+  flex-direction: row;
   background-color: #ffffff;
-  z-index: 1;
 }
 
-#logo {
+#logo img{
   max-width: 75px;
   margin: 15px;
   overflow: hidden;
+  cursor: pointer;
 }
 
 #logo_text {
+  position: static;
   color:black;
   text-align: center;
   justify-content: center;
@@ -25,9 +27,14 @@
   font-size: 20pt;
   margin-left: -10px;
 }
-
-#menu {
-  max-width: 25px;
-  margin: 20px;
+#ham_menu {
+  width: 50px;
+  height: 110px;
+  right: 0;
   cursor: pointer;
+}
+#ham_menu img{
+  width: 20px;
+  margin-top: 40px;
+  margin-left: 2em;
 }

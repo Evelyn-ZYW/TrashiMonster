@@ -9,11 +9,12 @@
   margin: 8px;
   font-family: 'Boogaloo', cursive;
   cursor: pointer;
+  opacity: 0.7;
+}
+#square_button:hover {
+  opacity: 1;
 }
 .button_img {
   max-width: 70px;
   /* margin: 30px; */
-}
-#square_button:hover {
-  box-shadow: 5px 5px 5px #888888;
 }

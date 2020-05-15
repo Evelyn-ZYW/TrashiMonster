@@ -6,3 +6,6 @@
 display: flex;
 flex-direction: row;
 }
+.the_footer span{
+  float: right;
+}

@@ -1,0 +1,22 @@
+.ResultText {
+  font-size: 24px;
+  margin-left:10px;
+}
+.ResultImg1 {
+  max-width: 300px;
+}
+.ResultImg2 {
+  margin-top: -90px;
+  max-width: 150px;
+}
+#result_body_cont1 {
+  width:300px;
+  font-size: 18px;
+}
+#result_body_cont2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+

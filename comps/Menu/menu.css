@@ -1,15 +1,19 @@
-#menu1 {
+#menu {
   display: inline-flex;
   flex-direction: column;
-  border-radius: 5pt;
   background-color: #ff9472;
-  width:150px;
-  height: 150px;
-  opacity:0.5;
+  width:180px;
+  height: 300px;
   color: white;
+  padding-top: 10px;
+  right: 100px;
+  transition: 1s all ease;
+  z-index: 1000;
 }
 .menu_options {
-  font-weight: 10px;
+  font-size: 24px;
   display: inline;
-  padding:3px;
+  padding:10px;
+  text-decoration: underline;
+  cursor: pointer;
 }

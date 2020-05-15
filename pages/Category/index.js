@@ -6,10 +6,34 @@ import ArrowButtonLeft from '../../comps/Button/ArrowButtonLeft';
 import SquaButton from '../../comps/Button/SquaButton';
 
 
-function SeeResult() {
+function SeeResult_organic() {
 
   setTimeout(function () {
-    Router.push("/Result");
+    Router.push("/Result/Result_organic");
+  }, 1000)
+}
+function SeeResult_plastic() {
+
+  setTimeout(function () {
+    Router.push("/Result/Result_plastic");
+  }, 1000)
+}
+function SeeResult_mixed() {
+
+  setTimeout(function () {
+    Router.push("/Result/Result_mixedpaper");
+  }, 1000)
+}
+function SeeResult_glass() {
+
+  setTimeout(function () {
+    Router.push("/Result/Result_glass");
+  }, 1000)
+}
+function SeeResult_waste() {
+
+  setTimeout(function () {
+    Router.push("/Result/Result_waste");
   }, 1000)
 }
 function goBack() {
@@ -41,7 +65,7 @@ const Category = ({ }) => <div className="body_page">
 
     <div id="cat_width">
       <SquaButton
-        onClick={SeeResult}
+        onClick={SeeResult_organic}
         src={Organic}
         color="#13ca91"
         text="Organic"
@@ -50,7 +74,7 @@ const Category = ({ }) => <div className="body_page">
         fontSize="25px"
       />
       <SquaButton
-        onClick={SeeResult}
+        onClick={SeeResult_plastic}
         src={Plastic}
         color="#0090ff"
         text="Plastic"
@@ -59,7 +83,7 @@ const Category = ({ }) => <div className="body_page">
         fontSize="25px"
       />
       <SquaButton
-        onClick={SeeResult}
+        onClick={SeeResult_mixed}
         src={MixedPaper}
         color="#ffdc00"
         text="Mixed Paper"
@@ -68,19 +92,19 @@ const Category = ({ }) => <div className="body_page">
         fontSize="25px"
       />
       <SquaButton
-        onClick={SeeResult}
+        onClick={SeeResult_glass}
         src={GlassCan}
         color="#000000"
-        text="Waste"
+        text= "Glass & Can"
         width="130px"
         height="130px"
         fontSize="25px"
       />
       <SquaButton
-        onClick={SeeResult}
+        onClick={SeeResult_waste}
         src={Waste}
         color="#9D9D9D"
-        text="Glass & Can"
+        text= "Waste"
         width="120px"
         height="120px"
         fontSize="25px"
