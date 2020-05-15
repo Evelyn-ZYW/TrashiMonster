@@ -7,7 +7,7 @@ function goDuration() {
 
   setTimeout(function () {
     Router.push("/Duration");
-  }, 1000)
+  }, 200)
 }
 
 
@@ -23,7 +23,7 @@ function GoHome() {
   console.log(GoHome);
   setTimeout(function () {
     Router.push("/Home");
-  }, 500)
+  }, 200)
 }
 
 const Location = () => <div className="body_page">

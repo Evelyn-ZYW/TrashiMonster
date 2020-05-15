@@ -13,7 +13,7 @@ function GoBack() {
   console.log(GoBack);
   setTimeout(function () {
     Router.push("/Location");
-  }, 1000)
+  }, 200)
 }
 
 const locImg1 = require('../../imgs/school.png');
@@ -57,21 +57,21 @@ const Tutorial = ({ }) => <div id="tutorial_page">
         <RectButton
           backgroundColor="#3b27ba"
           text="1 Week"
-          width="70px"
-          height="70px"
-          fontSize="25pt" />
+          width="50px"
+          height="50px"
+          fontSize="20pt" />
         <RectButton
           backgroundColor="#e847a1"
           text="1 Month"
-          width="70px"
-          height="70px"
-          fontSize="25pt" />
+          width="50px"
+          height="50px"
+          fontSize="20pt" />
         <RectButton
           backgroundColor="#13ca91"
           text="1 Year"
-          width="70px"
-          height="70px"
-          fontSize="25pt" />
+          width="50px"
+          height="50px"
+          fontSize="20pt" />
       </div>
     </div>
 
@@ -83,41 +83,41 @@ const Tutorial = ({ }) => <div id="tutorial_page">
           src={Organic}
           color="#13ca91"
           text="Organic"
-          width="130px"
-          height="130px"
-          fontSize="25px"
+          width="110px"
+          height="110px"
+          fontSize="20px"
         />
         <SquaButton
           src={Plastic}
           color="#0090ff"
           text="Plastic"
-          width="130px"
-          height="130px"
-          fontSize="25px"
+          width="110px"
+          height="110px"
+          fontSize="20px"
         />
         <SquaButton
           src={MixedPaper}
           color="#ffdc00"
           text="Mixed Paper"
-          width="130px"
-          height="130px"
-          fontSize="25px"
+          width="110px"
+          height="110px"
+          fontSize="20px"
         />
         <SquaButton
           src={GlassCan}
           color="#000000"
           text="Waste"
-          width="130px"
-          height="130px"
-          fontSize="25px"
+          width="110px"
+          height="110px"
+          fontSize="20px"
         />
         <SquaButton
           src={Waste}
           color="#9D9D9D"
           text="Glass & Can"
-          width="120px"
-          height="120px"
-          fontSize="25px"
+          width="110px"
+          height="110px"
+          fontSize="20px"
         />
       </div>
     </div>

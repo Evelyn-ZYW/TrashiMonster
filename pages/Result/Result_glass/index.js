@@ -10,14 +10,14 @@ function SeeTips_glass(){
   
   setTimeout(function(){
       Router.push("/Tips/Tips_glass");
-  }, 1000)
+  }, 200)
 }
 
 function goBack(){
   
   setTimeout(function(){
       Router.push("/Category");
-  }, 1000)
+  }, 200)
 }
 
 const Mountain = require('../../../imgs/organic_week.png')

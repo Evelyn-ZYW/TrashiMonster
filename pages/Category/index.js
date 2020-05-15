@@ -10,37 +10,37 @@ function SeeResult_organic() {
 
   setTimeout(function () {
     Router.push("/Result/Result_organic");
-  }, 1000)
+  }, 200)
 }
 function SeeResult_plastic() {
 
   setTimeout(function () {
     Router.push("/Result/Result_plastic");
-  }, 1000)
+  }, 200)
 }
 function SeeResult_mixed() {
 
   setTimeout(function () {
     Router.push("/Result/Result_mixedpaper");
-  }, 1000)
+  }, 200)
 }
 function SeeResult_glass() {
 
   setTimeout(function () {
     Router.push("/Result/Result_glass");
-  }, 1000)
+  }, 200)
 }
 function SeeResult_waste() {
 
   setTimeout(function () {
     Router.push("/Result/Result_waste");
-  }, 1000)
+  }, 200)
 }
 function goBack() {
 
   setTimeout(function () {
     Router.push("/Duration");
-  }, 1000)
+  }, 200)
 }
 
 const Organic = require('../../imgs/organic.png');

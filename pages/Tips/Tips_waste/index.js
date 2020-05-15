@@ -7,14 +7,14 @@ function goSummary() {
 
   setTimeout(function () {
     Router.push("/Summary");
-  }, 1000)
+  }, 200)
 }
 
 function goBack_waste() {
 
   setTimeout(function () {
     Router.push("/Result/Result_waste");
-  }, 1000)
+  }, 200)
 }
 
 import Header from '../../../comps/Header';

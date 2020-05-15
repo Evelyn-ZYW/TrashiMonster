@@ -11,14 +11,14 @@ function goSummary() {
 
   setTimeout(function () {
     Router.push("/Summary");
-  }, 1000)
+  }, 200)
 }
 
 function goBack_paper() {
 
   setTimeout(function () {
     Router.push("/Result/mixedpaper");
-  }, 1000)
+  }, 200)
 }
 
 const MixedPaper = require('../../../imgs/mixedpaper.png');
