@@ -46,8 +46,8 @@ const Tips = ({ color, text1, text2, text3, text4, text5}) => <div className="bo
 </div>;
 
 Tips.defaultProps = {
-  color="#ffdc00",
-  text1="Mixed Paper",
+  color: "#ffdc00",
+  text1: "Mixed Paper",
   text2: "Choose eEditions instead of physical versions. Read e-book instead of physical ones and recycle paper properly.",
   text3: "Cancel your magazine and newspaper subscriptions and read them online or at the library.",
   text4: "Ask for electronic receipt instead of printed receipt.",

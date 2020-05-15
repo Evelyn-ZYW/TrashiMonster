@@ -17,11 +17,10 @@ function goBack_waste() {
   }, 1000)
 }
 
-import Header from '../../comps/Header';
-import ArrowButtonLeft from '../../comps/Button/ArrowButtonLeft';
-import ArrowButtonRight from '../../comps/Button/ArrowButtonRight';
-import SquaButton from '../../comps/Button/SquaButton';
-import RectButton from '../../comps/Button/RectButton';
+import Header from '../../../comps/Header';
+import ArrowButtonLeft from '../../../comps/Button/ArrowButtonLeft';
+import ArrowButtonRight from '../../../comps/Button/ArrowButtonRight';
+import SquaButton from '../../../comps/Button/SquaButton';
 
 const Waste = require('../../../imgs/waste.png');
 

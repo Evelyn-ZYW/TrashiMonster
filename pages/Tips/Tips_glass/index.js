@@ -47,8 +47,8 @@ const Tips = ({ color, text1, text2, text3, text4, text5}) => <div className="bo
 </div>;
 
 Tips.defaultProps = {
-  color="#000000",
-  text1= "Glass & Can",
+  color: "#000000",
+  text1: "Glass&Can",
   text2: "Reuse and make sure to recycle them",
   text3: "Glass can be melted down and reshaped for new usage.",
   text4: "Aluminum cans are the most recyclable of all recyclable materials. Recycled aluminum cans will be back on the store shelf in 60 days!",
