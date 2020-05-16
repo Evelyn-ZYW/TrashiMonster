@@ -14,12 +14,6 @@ function goLocation(){
       Router.push("/Location");
   }, 200)
 }
-function goTips(){
-  
-  setTimeout(function(){
-      Router.push("/Tips");
-  }, 200)
-}
 
 const Organic = require('../../imgs/organic.png');
 const Plastic = require('../../imgs/plastic.png');
@@ -64,9 +58,7 @@ const Summary = ({ src1, src2, src3, src4, src5, }) => <div className="body_page
   </div>
   <p>Click on right arrow to <b>Start Again!</b></p>
   <div className="the_footer">
-    <ArrowButtonLeft onClick={goTips}/>
     <ArrowButtonRight onClick={goLocation}/>
-    
   </div>
 
 </div>;
