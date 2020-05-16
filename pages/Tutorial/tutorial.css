@@ -77,6 +77,9 @@
     top:80px;
   }
 } */
+#cat_width2 {
+  margin-left: 50px;
+}
 #location_page{
   display:flex;
 }
