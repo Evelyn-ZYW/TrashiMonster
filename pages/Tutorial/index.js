@@ -78,7 +78,7 @@ const Tutorial = ({ }) => <div id="tutorial_page">
     <p className="tutorial_text">Step 3: Choose a garbage category</p>
 
     <div className="tutorial_steps">
-      <div id="cat_width">
+      <div id="cat_width2">
         <SquaButton
           src={Organic}
           color="#13ca91"
