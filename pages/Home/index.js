@@ -9,17 +9,17 @@ const MyHomeImg2 = require('../../imgs/globe.png');
 
 import Router from 'next/router';
 
-function ClickStart(){
+function ClickStart() {
   console.log(ClickStart);
-  setTimeout(function(){
-      Router.push("/Location");
+  setTimeout(function () {
+    Router.push("/Location");
   }, 200)
 }
 
-function GoTutorial(){
+function GoTutorial() {
   console.log(GoTutorial);
-  setTimeout(function(){
-      Router.push("/Tutorial");
+  setTimeout(function () {
+    Router.push("/Tutorial");
   }, 200)
 }
 
@@ -31,16 +31,16 @@ const Home = () => <div
   <img src={MyHomeImg2} id="globe" />
 
   <RectButton
-   onClick={ClickStart}
-  backgroundColor="#3b27ba"
-  text="START"
-  fontSize="18px"
+    onClick={ClickStart}
+    backgroundColor="#3b27ba"
+    text="START"
+    fontSize="18px"
   />
-  <RectButton 
-  onClick={GoTutorial}
-  backgroundColor="#e847a1"
-  text="TUTORIAL"
-  fontSize="18px"
+  <RectButton
+    onClick={GoTutorial}
+    backgroundColor="#e847a1"
+    text="TUTORIAL"
+    fontSize="18px"
   />
 
 </div>

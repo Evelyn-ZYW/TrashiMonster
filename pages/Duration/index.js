@@ -28,7 +28,7 @@ const Duration = () => <div className="body_page">
   <div id="duration_page">
 
     <p className="sub_head">Do you know how much waste can be produced within below periods?</p>
-    <div>
+    <div id="button_cont">
       <RectButton
         onClick={goCategory}
         backgroundColor="#3b27ba"

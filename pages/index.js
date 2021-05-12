@@ -11,7 +11,7 @@ function ClickIndex(){
 
 
 const Index = () => <div>Index
-  <p />
+  <br />
    <Link href="Home"><a>Home Page</a></Link><br/>
    <Link href="Duration"><a>Duration</a></Link> <br/>
    <Link href="Location"><a>location</a></Link><br/>
@@ -20,7 +20,6 @@ const Index = () => <div>Index
    <Link href="Tips"><a>Tips</a></Link><br/>
    <Link href="Summary"><a>Summary</a></Link><br/>
    <Link href="Tutorial"><a>Tutorial</a></Link>
-
 </div>
  
 export default Index;
