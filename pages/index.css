@@ -13,4 +13,5 @@ body, html{
     overflow-x:hidden;
     display: flex;
     justify-content: center;
+    background: #c4c4c4;
 }

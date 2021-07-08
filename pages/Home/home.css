@@ -6,11 +6,11 @@ html, body {
   display: flex;
   flex-direction: column;
   /* background-color:#ff9472; */
+  background-color:#fff;
   min-width: 375px;
   max-width: 375px;
   min-height:812px;
   max-height:812px;
-  border: 1px solid black;
   align-items: center;
   justify-content: center;
   margin: 0;
