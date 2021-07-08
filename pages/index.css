@@ -2,16 +2,23 @@
   font-family: 'PT Sans Narrow', sans-serif;
 }
 
-#mainapp{
-    position:relative !important;
-    left:0;
-    opacity:1;
-    transition: opacity 1s;
- 
+body,
+html {
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  background: #c4c4c4;
 }
-body, html{
-    overflow-x:hidden;
-    display: flex;
-    justify-content: center;
-    background: #c4c4c4;
+.sub_head {
+  font-size: 24px;
+  width: 300px;
+  position: fixed;
+  font-family: 'Boogaloo', cursive;
+  top: 140px;
+}
+#mainapp {
+  position: relative !important;
+  left: 0;
+  opacity: 1;
+  transition: opacity 1s;
 }

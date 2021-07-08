@@ -35,12 +35,16 @@ const Home = () => <div
     backgroundColor="#3b27ba"
     text="START"
     fontSize="18px"
+    width="130px"
+    height="50px"
   />
   <RectButton
     onClick={GoTutorial}
     backgroundColor="#e847a1"
     text="TUTORIAL"
     fontSize="18px"
+    width="130px"
+    height="50px"
   />
 
 </div>

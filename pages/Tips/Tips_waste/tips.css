@@ -1,11 +1,12 @@
 #heading {
-  font-weight: bold;
+  font-weight: normal;
   font-size: 25px;
   font-family: 'Boogaloo', cursive;
+  text-align: center;
 }
 
-#tips_body_cont1 {
-  display: inline-flex;
+#texts {
+  display: flex;
   flex-direction: column;
   width: 300px;
 }

@@ -1,7 +1,11 @@
 #category_page {
   width:300px;
   font-size: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  /* top: 20px; */
 } 
-#cat_width {
-  width: 295px;
+.gap {
+  height: 130px;
 }

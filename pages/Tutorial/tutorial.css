@@ -1,18 +1,23 @@
 #tutorial_page {
   position: relative;
   width: 375px;
-  /* background-color: #ff9472; */
+  background-color: #fff;
+  overflow-y: scroll;
 }
-.tutorial_text  {
+
+#tutorial_page::-webkit-scrollbar {
+  display: none;
+}
+.tutorial_text {
   font-family: 'Boogaloo', cursive;
   position: relative;
   margin: 30px;
   font-size: 24px;
   /* color: #0090FF; */
-  color:#000000;
+  color: #000000;
   text-align: left;
 }
-#tutorial_body  {
+#tutorial_body {
   /* background-color: #ff9472; */
   position: relative;
   top: 110px;
@@ -22,7 +27,27 @@
   text-align: left;
 }
 .tutorial_steps {
-  display: inline-flex;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  /* width: 200px;
+  height: 350px; */
+  /* background-color: #f2b8a6; */
+  opacity: 5;
+  border-radius: 15px;
+  object-fit: scale-down;
+  /* display: flex; */
+}
+.tutorial_steps_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-self: center;
+  align-self: center;
+}
+.tutorial_steps_column {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
@@ -34,7 +59,6 @@
   border-radius: 15px;
   object-fit: scale-down;
   /* display: flex; */
- 
 }
 /* .arrow-down {
   width:100%;
@@ -80,33 +104,31 @@
 #cat_width2 {
   margin-left: 50px;
 }
-#location_page{
-  display:flex;
+#location_page {
+  display: flex;
 }
-.loc_img{
-  width:100px;
-  height:100px;
-  
+.loc_img {
+  width: 100px;
+  height: 100px;
 }
 .ResultImg1 {
-width:200px;
+  width: 200px;
 }
 
-.ResultImg2{
-  width:100px;
+.ResultImg2 {
+  width: 100px;
+  margin-top: -80px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .tutorial_steps {
+    /* float: none; */
+    width: 100%;
   }
-  
-  @media only screen and (min-width: 1024px) {
-    .tutorial_steps{
-      
-          /* float: none; */
-          width: 100%;
-      
-    }
+}
+@media screen and (max-width: 375px) {
+  .tutorial_steps {
+    /* float: none; */
+    width: 100%;
   }
-  @media screen and (max-width: 375px) {
-    .tutorial_steps {
-      /* float: none; */
-      width: 100%;
-    }
-  }
+}

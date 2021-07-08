@@ -33,7 +33,7 @@ const Result = ({ text, src1, src2}) => <div className="body_page">
       <img className="ResultImg2" src={src2} />
     </div>
   </div>
-  <p>Click on right arrow to see <b>How to Reduce Garbage!</b></p>
+  <p>Proceed to see <b>How to Reduce Garbage!</b></p>
   <div className="the_footer" >
     <ArrowButtonLeft onClick={goBack} />
     <ArrowButtonRight onClick={SeeTips_glass}/>
